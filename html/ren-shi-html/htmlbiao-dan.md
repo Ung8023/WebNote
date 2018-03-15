@@ -20,7 +20,7 @@
 
 | action | 信息提交的地址 |
 | :---: | :---: |
-| method | post\|get，提交请求的方式 |
+| method | post \| get，提交请求的方式 |
 
 
 
