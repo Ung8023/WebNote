@@ -17,7 +17,14 @@
 <td></td>
 <td></td>
 </tr>
-<tfoot></tfoot> 表尾(最后一行的总结行)
+<tfoot>
+    <tr>
+        <td>
+        </td>
+        <td>
+        </td>
+    </tr>
+</tfoot> 表尾(最后一行的总结行)
 </table>
 ```
 
