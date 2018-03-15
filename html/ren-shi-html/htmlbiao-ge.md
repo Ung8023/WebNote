@@ -5,5 +5,5 @@
 ```html
 <table>    表格
 <thead></thead>  表头<tr>       行<td></td> 列<td></td><td></td></tr>
-<tfoot></tfoot></table>
+<tfoot></tfoot> 表尾</table>
 ```
