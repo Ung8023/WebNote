@@ -32,6 +32,7 @@
 | height | 高度 |
 | cellspacing | 单元格之间的距离 |
 | cellpadding | 内容距边框的距离 |
+| align |  |
 
 #### 单元格合并
 
