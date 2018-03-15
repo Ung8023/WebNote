@@ -4,6 +4,8 @@
 ### 如何创建表格：
 ```html
 <table>    表格
-<thead></thead>  表头<tr>       行<td></td> 列<td></td><td></td></tr>
-<tfoot></tfoot> 表尾</table>
+<caption></caption> 表头
+<thead></thead>  表格头(用来写项目名称)<tr>       行<td></td> 列<td></td><td></td></tr>
+<tfoot></tfoot> 表尾(最后一行的总结行)</table>
 ```
+### 单元格合并
