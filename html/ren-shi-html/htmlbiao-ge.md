@@ -32,7 +32,8 @@
 | height | 高度 |
 | cellspacing | 单元格之间的距离 |
 | cellpadding | 内容距边框的距离 |
-| align |  |
+| align | 给表格用表格居中，给tr或td，则tr或td内容居中 |
+| bgcolor | 背景颜色，可以给某个单元格使用 |
 
 #### 单元格合并
 
