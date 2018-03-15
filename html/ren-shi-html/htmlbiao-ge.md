@@ -19,11 +19,11 @@
 </tr>
 <tfoot>
     <tr>
-        <td>
+        <td>
         </td>
-        <td>
+        <td>
         </td>
-    </tr>
+    </tr>
 </tfoot> 表尾(最后一行的总结行)
 </table>
 ```
