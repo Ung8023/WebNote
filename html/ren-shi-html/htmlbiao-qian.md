@@ -106,3 +106,18 @@
 
 ![](/assets/路径.png)
 
+1. 使用当前目录下的kobe.png 
+
+	```html
+	<img src="kobe.png" alt="">
+	```
+2. 使用assets目录下的kobe.png 
+
+	```html
+	<img src="assets/kobe.png" alt="">
+	```
+3. 使用html目录下的kobe.png 
+
+	```html
+	<img src="../kobe.png" alt="">
+	```
