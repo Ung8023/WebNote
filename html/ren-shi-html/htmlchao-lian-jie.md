@@ -47,8 +47,11 @@ target:
 
 #### 超链接优化写法\(让所有的超链接都在新窗口打开\)
 
-```
+```html
 <head>
     <base target="_blank">
 </head>
 ```
+
+
+
