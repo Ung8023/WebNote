@@ -40,3 +40,11 @@
 	```html
 	<head><title></title></head>
 	```
+	
+2. 并列关系
+
+	```html
+	<head></head><body></body>
+	```
+
+#### 开发工具
