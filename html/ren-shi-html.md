@@ -4,7 +4,12 @@
 
 #### Html结构标准
 
-
+```
+<!doctype html>
+<html>
+    
+</html>
+```
 
 
 
