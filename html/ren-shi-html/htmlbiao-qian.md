@@ -106,23 +106,26 @@
 
 ![](/assets/路径.png)
 
-1. 使用当前目录下的kobe.png 
+1. 使用当前目录下的kobe.png
 
-	```html
-	<img src="kobe.png" alt="">
-	```
-2. 使用assets目录下的kobe.png 
+   ```html
+    <img src="kobe.png" alt="">
+   ```
 
-	```html
-	<img src="assets/kobe.png" alt="">
-	```
-3. 使用html目录下的kobe.png 
+2. 使用assets目录下的kobe.png
 
-	```html
-	<img src="../kobe.png" alt="">
-	```
+   ```html
+    <img src="assets/kobe.png" alt="">
+   ```
+
+3. 使用html目录下的kobe.png
+
+   ```html
+    <img src="../kobe.png" alt="">
+   ```
 
 #### 绝对路径
+
 从电脑的根目录开始写，一直到文件的位置
 
 ```html
@@ -130,6 +133,7 @@
 ```
 
 ### 超链接
+
 ```html
 <!-- 超链接标签 -->
 <a href="1.认识Html.html" title="认识html" target="_blank">这是一个超链接</a>
@@ -137,43 +141,46 @@
 
 | a的属性 | 作用 |
 | :---: | :---: |
-| href | 去往的路径(跳转的页面)必写属性 |
+| href | 去往的路径\(跳转的页面\)必写属性 |
 | title | 提示文本，鼠标放置到链接上显示的文字 |
 | target | 在哪个页面打开要跳转的页面 |
 
-target:  
+target:
 
 1. `_self` : 在自身页面打开，关闭自身页面打开链接页面
-2. `_blank`: 打开新的页面(自身页面不关闭，打开一个新的链接页面)
+2. `_blank`: 打开新的页面\(自身页面不关闭，打开一个新的链接页面\)
 
 #### 锚链接
 
 1. 先定义一个锚
 
-	```html
-	<!-- 任意定义一个标签，赋一个id -->
-	<a href="#" id="mao"></a>	
-	```
+   ```html
+    <!-- 任意定义一个标签，赋一个id -->
+    <a href="#" id="mao"></a>
+   ```
 
 2. 超链接到锚点
 
-	```html
-	<a href="#mao">回到顶部</a>
-	```
-	
+   ```html
+    <a href="#mao">回到顶部</a>
+   ```
+
 #### 空链 不知道链接到哪个页面，使用空链
+
 ```
 <!-- 空链 -->
 <a href="#">空链</a>
 ```
 
-#### 压缩文件下载(不推荐使用)
+#### 压缩文件下载\(不推荐使用\)
+
 ```html
 <!-- 压缩文件下载 -->
 <a href="aaa.zip">压缩文件下载</a>
 ```
 
-#### 超链接优化写法(让所有的超链接都在新窗口打开)
+#### 超链接优化写法\(让所有的超链接都在新窗口打开\)
+
 ```
 <head>
     <base target="_blank">
@@ -181,4 +188,8 @@ target:
 ```
 
 ### 列表
+
 #### 无序列表
+
+
+
