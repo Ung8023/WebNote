@@ -107,5 +107,19 @@
 <embed src="勇.mp3" hidden="true"/>
 ```
 
+##### 上标
+
+```html
+<!-- 上标 -->
+<p>C<sub>2</sub>H<sub>5</sub>OH</p>
+```
+
+##### 下标
+
+```html
+<!-- 下标 -->
+<p>30<sup>o</sup>C</p>
+```
+
 
 
