@@ -10,5 +10,5 @@
 
 ## HTML
 
-* [认识HTMl](html/ren-shi-html.md)
+* [HTMl](html/ren-shi-html.md)
 
