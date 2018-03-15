@@ -22,3 +22,4 @@
 #### Html标签分类
 
 1. 单标签  `<!DOCTYPE html>`
+2. 双标签  `<html></html>   <head></head>   <title></title>`
