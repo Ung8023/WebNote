@@ -6,7 +6,7 @@
 
 #### Html结构标准
 
-```
+```html
 <!doctype html>
 <html>
 <head>
