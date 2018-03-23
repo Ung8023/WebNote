@@ -27,6 +27,8 @@ background-color: antiquewhite;
         color:red;
     }
 </style>
-
+...
 <p>这里是一个<span>段落</span></p>
 ```
+
+说明，所有的标签都可以是选择器
