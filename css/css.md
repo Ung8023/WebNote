@@ -22,5 +22,10 @@ CSS描述页面的样式，是casading style sheet(层叠样式表)的简写。
 ### CSS 语法：
 
 ```html
-
+选择器{
+    key:value;
+    key:value;
+    ......
+}
 ```
+
