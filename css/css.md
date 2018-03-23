@@ -36,3 +36,5 @@ CSS描述页面的样式，是casading style sheet(层叠样式表)的简写。
 
 color属性的值，可以使英文单词，red、blue、yellow等，也可以是rgb，十六进制。
 
+#### 字号大小
+
