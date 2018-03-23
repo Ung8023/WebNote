@@ -41,4 +41,13 @@ color属性的值，可以使英文单词，red、blue、yellow等，也可以�
 
 快捷键：fiz + tab
 
+#### 背景颜色
+`background-color:blue;`
 
+快捷键：bgc + tab
+
+#### 字体加粗
+`font-weight:bold;`快捷键：fwb + tab  
+`font-weight:normal;` 快捷键：fwn + tab
+
+#### 斜体：
