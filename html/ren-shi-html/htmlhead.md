@@ -12,6 +12,7 @@
 ```html
 <head>
   <meta charset="utf-8">
+  <!-- 有助于seo -->
   <title>在此处添加Title</title>
 </head>
 ```
