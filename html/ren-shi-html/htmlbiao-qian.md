@@ -87,6 +87,10 @@
 
 ##### 图片标签
 
+网页上可用的图片类型：
+jpg(jpeg)、gif、png、bmp
+
+
 ```html
 看看我家科比 <img src="kobe.png" alt="我家科比" title="这是科比" width="300px" height="200px">
 ```
