@@ -33,7 +33,7 @@
 ```html
 <!-- 添加作者 -->
 <meta name="author" content="Ung8023">
-<!-- 添加描述 -->
+<!-- 添加描述 可以在搜索结果中显示的语句，seo-->
 <meta name="description" content="this is description">
 ```
 #### 网页重定向
