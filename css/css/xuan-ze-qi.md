@@ -52,6 +52,8 @@ background-color: antiquewhite;
 <p>我是段落3</p>
 ```
 
-id选择器的选择符是“#”
+id选择器的选择符是“#”，需要先给标签指定id属性
+
+
 
 
