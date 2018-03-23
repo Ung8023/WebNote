@@ -4,6 +4,7 @@ CSS描述页面的样式，是casading style sheet(层叠样式表)的简写。
 ### CSS书写位置:
 
 1. 当前文件书写
+
     ```html
     <style type="text/css">
         /* 在此处书写css代码 */
@@ -12,4 +13,4 @@ CSS描述页面的样式，是casading style sheet(层叠样式表)的简写。
         }
     </style>
     ```
-
+2. 外部文件书写
