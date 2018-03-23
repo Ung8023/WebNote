@@ -7,6 +7,11 @@
 p {
 background-color: antiquewhite;
 }
+
+h1 {
+background-color: antiquewhite;
+}
+
 </style>
 ```
 
