@@ -1,7 +1,9 @@
 ### 概述
 CSS描述页面的样式，是casading style sheet(层叠样式表)的简写。
 
-### CSS书写位置:
+### 编程本质
+
+### CSS书写位置
 
 1. 当前文件书写
 
@@ -19,7 +21,7 @@ CSS描述页面的样式，是casading style sheet(层叠样式表)的简写。
     <link rel="stylesheet" href="../css/a.css">
     ```
     
-### CSS 语法：
+### CSS 语法
 **css对换行不敏感，对空格也不敏感。**但是一定要有标准的语法。**冒号，分号都不能省略。**
 
 ```html
@@ -31,7 +33,7 @@ CSS描述页面的样式，是casading style sheet(层叠样式表)的简写。
 ```
 
 ### 常见属性
-#### 字符颜色：
+#### 字符颜色
 `color:red;`  
 
 color属性的值，可以使英文单词，red、blue、yellow等，也可以是rgb，十六进制。  
