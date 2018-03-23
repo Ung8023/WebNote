@@ -129,4 +129,34 @@ id选择器的选择符是“#”，需要先给标签指定id属性
 
 ### 高级选择器
 #### 后代选择器
+语法：  
+```
+选择器1 选择器2 选择器3 ... {
 
+}
+```
+
+```html
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>后代选择器</title>
+    <style type="text/css">
+        .div1 p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <ul>
+            <li>
+                <p>段落1</p>
+                <p>段落2</p>
+                <p>段落3</p>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
+```
