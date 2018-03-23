@@ -16,7 +16,7 @@
   * [Html超链接](html/ren-shi-html/htmlchao-lian-jie.md)
   * [Html列表](html/ren-shi-html/htmllie-biao.md)
   * [Html滚动](html/ren-shi-html/htmlgun-dong.md)
-  * HtmlHead
+  * [HtmlHead](html/ren-shi-html/htmlhead.md)
   * [Html表格](html/ren-shi-html/htmlbiao-ge.md)
   * [Html表单](html/ren-shi-html/htmlbiao-dan.md)
 
