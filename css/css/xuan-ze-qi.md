@@ -22,5 +22,10 @@ background-color: antiquewhite;
 就是标签的名字  
 
 ```html
+<style type="text/css">	
+    span{
+        color:red;
+    }
+</style>
 <p>这里是一个<span>段落</span></p>
 ```
