@@ -72,6 +72,8 @@ id选择器的选择符是“#”，需要先给标签指定id属性
 </style>
 ......
  <p class="param2"> 这是定义了class的标签 </p>
+ <p class="param2"> 这也是定义了class的标签 </p>
+
 ```
 
 
