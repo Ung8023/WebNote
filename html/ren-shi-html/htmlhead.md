@@ -19,6 +19,9 @@
 ### 元数据 `<meta>`元素
 #### 指定文档中的字符编码
 ```html
+<!-- Html4.0 -->
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<!-- Html5 -->
 <meta charset="UTF-8">
 ```
 #### 添加网站关键字
