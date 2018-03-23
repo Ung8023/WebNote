@@ -126,5 +126,8 @@ jpg(jpeg)、gif、png、bmp
 <p>30<sup>o</sup>C</p>
 ```
 
+##### div标签与span标签
+div的语义是“分割”，span的语义是“范围跨度”
+
 
 
