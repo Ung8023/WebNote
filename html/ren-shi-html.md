@@ -8,7 +8,7 @@ html中处理语义其他的什么都没有
 
 ### Html概览
 
-#### Html结构标准
+#### Html标准结构
 
 ```html
 <!doctype html>
