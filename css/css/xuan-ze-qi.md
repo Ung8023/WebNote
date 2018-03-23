@@ -54,6 +54,9 @@ background-color: antiquewhite;
 
 id选择器的选择符是“#”，需要先给标签指定id属性
 
-
+##### html标签id名字取值规则
+1. 只能有字母数字下划线
+2. 必须以字母开头
+3. 不能和标签同名，比如id不能为body、p、span
 
 
