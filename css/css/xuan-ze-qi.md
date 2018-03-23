@@ -10,6 +10,6 @@ background-color: antiquewhite;
 </style>
 ```
 
-
+在整个{}之前写的就是选择器，
 ### 基础选择器
 #### 标签选择器
