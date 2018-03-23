@@ -62,11 +62,17 @@ id选择器的选择符是“#”，需要先给标签指定id属性
 **一个Html页面不能出现相同id，哪怕他们不是一个类型。比如页面上有一个id为pp的p，一个id为pp的div，是非法的！**
 
 #### 类选择器
-
-
 语法: `.类名{ key:value; }`
 
-
+```html
+<style type="text/css">
+    .param2{
+        font-size: 16px;
+    }
+</style>
+......
+ <p class="param2"> 这是定义了class的标签 </p>
+```
 
 ##### 一个标签可以被多个选择器选中
 标签选择器和id选择器都选中了id为param的标签，会共同作用
