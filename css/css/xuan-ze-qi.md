@@ -40,8 +40,18 @@ background-color: antiquewhite;
 
 #### id选择器
 ```html
+<style type="text/css">	
+    #para2{
+        color:red;
+    }
+</style>
+
+......
 <p>我是段落1</p>	
 <p id="para2">我是段落2</p>
 <p>我是段落3</p>
 ```
+
+id选择器的选择符是“#”
+
 
