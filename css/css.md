@@ -39,4 +39,6 @@ color属性的值，可以使英文单词，red、blue、yellow等，也可以�
 #### 字号大小
 `font-size:40px;`
 
+快捷键：fiz + tab
+
 
