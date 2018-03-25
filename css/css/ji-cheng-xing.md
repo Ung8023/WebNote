@@ -24,10 +24,11 @@ body {
 
 ```html
 <style type="text/css">
+    /*权重为 1,1,1 */
     #hezi1 .box2 p {
         color: red;
     }
-
+    /*1,0,3*/
     div div #hezi3 p{
         color: blue;
     }
