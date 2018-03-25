@@ -52,7 +52,15 @@ body {
 **如果权重一样**，谁写在后面谁起作用。
 
 ```html
+<style type="text/css">
+    #hezi1 .box1 p {
+        color: red;
+    }
 
+    #hezi2 div .pp {
+        color: blue;
+    }
+</style>
 ......
 <div id="hezi1" class="box1">
     <div id="hezi2" class="box2">
