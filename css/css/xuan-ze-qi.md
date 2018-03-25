@@ -233,3 +233,12 @@ div>p {
 ```
 
 #### 序选择器(IE8兼容，IE6、7不兼容)
+```html
+ul li:first-child {
+    color: red;
+}
+
+ul li:last-child {
+    color: green;
+}
+```
