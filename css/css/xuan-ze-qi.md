@@ -248,6 +248,15 @@ ul li:last-child {
 如果要求兼容IE6、7，就需要自己定义类名，用类选择器来选择第一个或最后一个:  
 
 ```html
+ul li:first-child {
+    color: red;
+}
+
+ul li:last-child {
+    color: green;
+}
+
+
 <ul>
     <li class="first">asf</li>
     <li>asf</li>
