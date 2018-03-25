@@ -104,7 +104,13 @@ p {
 如果权重都是0，并且没选中，那么谁描述的层级近谁起作用。
 
 ```html
+#hezi1 #hezi2 {
+    color: red;
+}
 
+div.box div.box div.box {
+    color: blue;
+}
 ......
 <div class="box" id="hezi1">
     <div class="box" id="hezi2">
