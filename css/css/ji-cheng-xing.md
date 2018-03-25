@@ -79,7 +79,17 @@ body {
 开始计算权重之前，一定要看是否选中了文字所在的最内层标签。如果没选中则权重为0。
 
 ```html
+#hezi1 #hezi2 #hezi3 {
+    color: red;
+}
 
+div.box div.box div.box {
+    color: blue;
+}
+
+p {
+    color: green;
+}
 ......
 <div class="box" id="hezi1">
     <div class="box" id="hezi2">
