@@ -24,4 +24,5 @@
 
 * [CSS](css/css.md)
   * [选择器](css/css/xuan-ze-qi.md)
+  * [继承性](css/css/ji-cheng-xing.md)
 
