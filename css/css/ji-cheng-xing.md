@@ -53,10 +53,11 @@ body {
 
 ```html
 <style type="text/css">
+    /* 权重为 1,1,1 */
     #hezi1 .box1 p {
         color: red;
     }
-
+    /* 权重为 1,1,1 */
     #hezi2 div .pp {
         color: blue;
     }
