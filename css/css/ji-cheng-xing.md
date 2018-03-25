@@ -11,6 +11,6 @@ color、 text-开头的、line-开头的、font-开头的。
 ```html
 body {
     color: red;
-    
+    font-size: 16px;
 }
 ```
