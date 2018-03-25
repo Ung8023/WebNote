@@ -217,6 +217,6 @@ p, li {
 #### 儿子选择器(IE7开始兼容，IE6不兼容)
 ```html
 div>p {
-            color: red;
-        }
+    color: red;
+}
 ```
