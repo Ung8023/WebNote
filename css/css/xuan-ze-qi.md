@@ -233,6 +233,8 @@ div>p {
 ```
 
 #### 序选择器(IE8兼容，IE6、7不兼容)
+通过`:`指定
+
 ```html
 ul li:first-child {
     color: red;
