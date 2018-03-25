@@ -187,6 +187,8 @@ h3.sp{
 }
 ```
 ##### 交集选择器连续交（一般不推荐使用）
+IE7开始兼容，IE6不兼容。
+
 ```html
 h3.special.zhongyao{
     color:red;
