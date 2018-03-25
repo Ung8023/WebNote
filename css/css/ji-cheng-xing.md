@@ -126,5 +126,21 @@ div.box div.box div.box {
 如果权重都是0，并且没选中，那么谁描述的层级距离目标一样，那么再按权重的规则。
 
 ```html
+<style type="text/css">
+    #hezi1 #hezi2 #hezi3{
+        color: red;
+    }
 
+    div.box div.box div.box {
+        color: blue;
+    }
+</style>
+......
+<div class="box" id="hezi1">
+    <div class="box" id="hezi2">
+        <div class="box" id="hezi3">
+            <p>我是什么颜色</p>
+        </div>
+    </div>
+</div>
 ```
