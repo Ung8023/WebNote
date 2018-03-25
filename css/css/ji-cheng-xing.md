@@ -52,5 +52,12 @@ body {
 **如果权重一样**，谁写在后面谁起作用。
 
 ```html
-
+......
+<div id="hezi1" class="box1">
+    <div id="hezi2" class="box2">
+        <div id="hezi3" class="box3">
+            <p class="pp">我是什么颜色</p>
+        </div>
+    </div>
+</div>
 ```
