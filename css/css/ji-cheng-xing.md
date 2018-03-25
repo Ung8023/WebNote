@@ -28,11 +28,11 @@ body {
     #hezi1 .box2 p {
         color: red;
     }
-    /*1,0,3*/
+    /*权重为 1,0,3*/
     div div #hezi3 p{
         color: blue;
     }
-
+    /*权重为 0,3,4*/
     div.box1 div.box2 div.box3 p {
         color: green;
     }
