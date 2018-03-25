@@ -198,4 +198,8 @@ h3.special.zhongyao{
 #### 并集选择器
 用逗号就表示并集
 
-
+```html
+p, li {
+    color: red;
+}
+```
