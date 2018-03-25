@@ -271,6 +271,8 @@ ul li.last {
 
 ```html
 h3+p {
-            color: red;
-        }
+    color: red;
+}
 ```
+
+选中的是紧挨在h3标签后面的p标签。
