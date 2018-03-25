@@ -102,3 +102,15 @@ p {
 
 ##### 就近原则
 如果权重都是0，并且没选中，那么谁描述的层级近谁起作用。
+
+```html
+
+......
+<div class="box" id="hezi1">
+    <div class="box" id="hezi2">
+        <div class="box" id="hezi3">
+            <p>我是什么颜色</p>
+        </div>
+    </div>
+</div>
+```
