@@ -188,7 +188,9 @@ h3.sp{
 ```
 ##### 交集选择器连续交（一般不推荐使用）
 ```html
-
+1h3.special.zhongyao{
+2	color:red;
+}
 ```
 
 
