@@ -24,18 +24,18 @@ body {
 
 ```html
 <style type="text/css">
-        #hezi1 .box2 p {
-            color: red;
-        }
+    #hezi1 .box2 p {
+        color: red;
+    }
 
-        div div #hezi3 p{
-            color: blue;
-        }
+    div div #hezi3 p{
+        color: blue;
+    }
 
-        div.box1 div.box2 div.box3 p {
-            color: green;
-        }
-    </style>
+    div.box1 div.box2 div.box3 p {
+        color: green;
+    }
+</style>
 ```
 
 不进位，实际上能进位（255个标签，等于1个类名）但是没有实际意义！  
