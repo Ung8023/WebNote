@@ -252,10 +252,6 @@ ul li:last-child {
     <li class="first">asf</li>
     <li>asf</li>
     <li>asf</li>
-    <li>afs</li>
-    <li>asf</li>
-    <li>asf</li>
-    <li>asf</li>
     <li>asf</li>
     <li>asf</li>
     <li class="last">asf</li>
