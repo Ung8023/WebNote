@@ -19,8 +19,24 @@ body {
 是css处理冲突的能力
 
 #### 权重
-当选择器，选择上了某个元素的时候，那么要这么统计权重：  
+当选择器，**选择上了**某个元素的时候，那么要这么统计权重：  
 **id的数量，类的数量，标签的数量**  
+
+```html
+<style type="text/css">
+        #hezi1 .box2 p {
+            color: red;
+        }
+
+        div div #hezi3 p{
+            color: blue;
+        }
+
+        div.box1 div.box2 div.box3 p {
+            color: green;
+        }
+    </style>
+```
 
 不进位，实际上能进位（255个标签，等于1个类名）但是没有实际意义！  
 
