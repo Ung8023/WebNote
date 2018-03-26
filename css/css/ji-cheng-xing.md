@@ -194,7 +194,7 @@ important是英语里面的“重要的”的意思。我们可以通过语法�
 </style>
 ......
 <div>
-    <p class="style1 style2">我什么颜色多大？</p>
+    <p class="style1 style2">我什么颜色多大？</p> //红色，12px;
 </div>
 ```
 
