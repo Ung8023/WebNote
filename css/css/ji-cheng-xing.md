@@ -206,6 +206,7 @@ important是英语里面的“重要的”的意思。我们可以通过语法�
 ```html
 <style type="text/css">
     div {
+        /*由于div是通过继承性来影响文字颜色的，所以!important无法提升它的权重，权重依然是0。*/
         color: red !important;
     }
 
@@ -215,6 +216,6 @@ important是英语里面的“重要的”的意思。我们可以通过语法�
 </style>
 ......
 <div>
-    <p >我什么颜色？</p>
+    <p >我什么颜色？</p> //绿色
 </div>
 ```
