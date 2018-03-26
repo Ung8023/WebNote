@@ -201,6 +201,7 @@ important是英语里面的“重要的”的意思。我们可以通过语法�
 ```
 
 ###### ！important不影响继承的权重
+!important无法提升继承的权重，该是0还是0。  
 
 ```html
 <style type="text/css">
