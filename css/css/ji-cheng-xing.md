@@ -180,6 +180,8 @@ important是英语里面的“重要的”的意思。我们可以通过语法�
 ```
 
 ###### !important提升的是一个属性，而不是一个选择器
+只有color属性被提升了权重，不影响font-size属性  
+
 ```html
 <style type="text/css">
     .style1 {
