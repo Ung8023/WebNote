@@ -203,6 +203,16 @@ important是英语里面的“重要的”的意思。我们可以通过语法�
 ###### ！important不影响继承的权重
 
 ```html
+<style type="text/css">
+    div {
+        color: red !important;
+    }
+
+    p {
+        color: green;
+    }
+</style>
+......
 <div>
     <p >我什么颜色？</p>
 </div>
