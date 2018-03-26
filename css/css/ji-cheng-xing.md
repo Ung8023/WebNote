@@ -144,3 +144,21 @@ div.box div.box div.box {
     </div>
 </div>
 ```
+
+#### 同一个标签，携带了多个类名，有冲突
+
+```html
+<style type="text/css">
+    .green {
+        color: green;
+    }
+
+    .red {
+        color: red;
+    }
+</style>
+......
+<div>
+    <p class="red green"> 我是什么颜色</p>
+</div>
+```
