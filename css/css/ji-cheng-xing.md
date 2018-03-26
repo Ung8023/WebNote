@@ -239,10 +239,13 @@ important是英语里面的“重要的”的意思。我们可以通过语法�
         <div>
             <div class="div4">
                 <div class="div5">
-                    <p>我是什么颜色</p>
+                    <p>我是什么颜色</p> //依然是绿色，
                 </div>
             </div>
         </div>
     </div>
 </div>
 ```
+
+##### 权重总结
+ 
