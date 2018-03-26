@@ -221,3 +221,28 @@ important是英语里面的“重要的”的意思。我们可以通过语法�
 ```
 
 ###### !important不影响就近原则
+
+```html
+<style type="text/css">
+    div .div4 {
+        color: red !important;
+    }
+
+    div .div5 {
+        color: green;
+    }
+
+</style>
+......
+<div>
+    <div class="div2">
+        <div>
+            <div class="div4">
+                <div class="div5">
+                    <p>我是什么颜色</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+```
