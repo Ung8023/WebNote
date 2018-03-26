@@ -145,8 +145,9 @@ div.box div.box div.box {
 </div>
 ```
 
-#### 同一个标签，携带了多个类名，有冲突
-
+#### 同一个标签，携带了多个类名，有冲突    
+文字为红色。当两个选择器对同一个标签的同一属性都有设置时，就会发生冲突。这个时候以css中后书写的为准，**与标签使用css的顺序无关，只与css的书写顺序有关。***  
+  
 ```html
 <style type="text/css">
     .green {
@@ -159,6 +160,23 @@ div.box div.box div.box {
 </style>
 ......
 <div>
-    <p class="red green"> 我是什么颜色</p>
+    <p class="red green"> 我是什么颜色</p>// 红色
 </div>
 ```
+
+##### important
+important是英语里面的“重要的”的意思。我们可以通过语法：`k:v !important;`来给一个属性**提高权重。**这个属性的权重就是**无穷大。**
+
+```html
+<style type="text/css">
+    .green {
+        color: green !important;
+    }
+
+    .red {
+        color: red;
+    }
+</style>
+```
+
+###### !important提升的是一个属性，而不是一个选择器
