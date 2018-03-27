@@ -8,7 +8,26 @@
 代码：  
 
 ```html
+<style type="text/css">
+    .box1 {
+        float: left;
+        width: 200px;
+        height: 300px;
+        background-color: blue;
+    }
 
+    .box2 {
+        float: left;
+        width: 500px;
+        height: 300px;
+        background-color: green;
+    }
+</style>
+......
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+</body>
 ```
 
 ### 浮动的三个性质:
