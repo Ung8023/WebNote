@@ -142,7 +142,7 @@ padding是4个方向的，所以能够分别描述4个方向的padding，有两�
 
 ```html
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
-            margin:0;
-            padding:0
-        }
+        margin:0;
+        padding:0
+    }
 ```
