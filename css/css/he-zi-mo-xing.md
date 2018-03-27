@@ -254,4 +254,20 @@ border-left-color: blue;
     border-left-width: 0;
     ```
     
+### margin
+使用方法与padding完全一致
 
+#### margin塌陷现象
+在标准文档流中，竖直方向的margin不叠加。  
+如果不在标准流，比如盒子都浮动了，那么两个盒子之间是没有塌陷现象
+
+#### 盒子居中`margin: 0 auto`
+margin的值可以为auto，表示自动。当left、right两个方向，都是auto的时候，盒子居中了：  
+
+```css
+margin-left: auto;
+margin-right: auto;
+
+简写为
+margin: 0 auto;
+```
