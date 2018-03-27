@@ -284,3 +284,13 @@ text-align: center;  → 让这个div内部的文本居中。
 text-align:left;     文本居左
 text-align:right;    文本居右
 ```
+
+#### 善于使用父级的padding而不是子级的margin
+如果父亲没有border，儿子的margin实际上相对于流设置的，是这一行。所以，父亲整体也掉下来了  
+**margin这个属性，本质上描述的是兄弟和兄弟之间的距离； 最好不要用这个marign表达父子之间的距离。**
+
+#### margin的IE6兼容问题
+
+##### IE6双倍margin bug
+当出现连续浮动的元素，携带和浮动方向相同的margin时，队首的元素，会双倍marign。
+
