@@ -12,7 +12,7 @@
   
   
 ```html
-/*这个盒子的width为300，height为300，但是真实占有的宽高为:382x382， */
+/*这个盒子的width为300，height为300，但是真实占有的宽高为:382x382，因为要加上padding、border和margin */
 div.box {
     width: 300px;
     height: 300px;
