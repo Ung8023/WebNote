@@ -9,9 +9,10 @@
 * padding: 内边距
 * border: 边框
 * margin: 外边距
-
-
+  
+  
 ```html
+/*这个盒子的width为300，height为300，但是真实占有的宽高为:382x382， */
 div.box {
     width: 300px;
     height: 300px;
