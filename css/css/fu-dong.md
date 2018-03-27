@@ -124,3 +124,34 @@ div挡住了p，但是p中的文字不会被挡住，形成“字围”效果。
 ```
 
 ### 清除浮动
+```html
+<style type="text/css">
+    li {
+        float: left;
+        width: 90px;
+        height: 40px;
+        background-color: gold;
+        text-align: center;
+    }
+</style>
+......
+<div>
+    <ul>
+        <li>第1个li</li>
+        <li>第2个li</li>
+        <li>第3个li</li>
+        <li>第4个li</li>
+        <li>第5个li</li>
+    </ul>
+</div>
+
+<div>
+    <ul>
+        <li>第01个li</li>
+        <li>第02个li</li>
+        <li>第03个li</li>
+        <li>第04个li</li>
+        <li>第05个li</li>
+    </ul>
+</div>
+```
