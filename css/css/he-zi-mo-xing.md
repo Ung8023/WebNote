@@ -65,3 +65,13 @@ css中定义的width和height不一定是盒子的真实占有宽高。
 ![](/assets/两个300x300盒子.png)
 
 #### padding
+padding就是内边距，padding区域有背景颜色(css2.1前提)，并且背景颜色一定和内容区域的相同。background-color将填充所有boder以内的区域。
+  
+padding是4个方向的，所以能够分别描述4个方向的padding，有两种方式:  
+
+1. 把4个方向的值分开来写
+    * `padding-top: 20px;`
+    * `padding-right: 20px;`
+    * `padding-bottom: 20px;`
+    * `padding-left: 20px;`
+
