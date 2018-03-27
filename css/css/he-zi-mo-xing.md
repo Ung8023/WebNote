@@ -320,3 +320,30 @@ text-align:right;    文本居右
     
     <li class="no1"></li>
     ```
+    
+##### 3px-bug
+```html
+<style type="text/css">
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+}
+div p{
+    margin-right: 10px;
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+</style>
+......
+<body>
+<div>
+    <p></p>
+</div>
+```
