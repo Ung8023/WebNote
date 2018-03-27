@@ -277,4 +277,10 @@ margin: 0 auto;
 2. 只有标准流的盒子，才能使用margin:0 auto; 居中。也就是说，当一个盒子浮动了、绝对定位了、固定定位了，都不能使用`margin:0 auto;`
 3. `margin:0 auto;`是在居中盒子，不是居中文本。文本的居中，要使用`text-align:center;`
 
-####
+#### 居中
+```css
+margin:0 auto;   → 让这个div自己在大容器中居中。
+text-align: center;  → 让这个div内部的文本居中。
+text-align:left;     文本居左
+text-align:right;    文本居右
+```
