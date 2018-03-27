@@ -199,7 +199,8 @@ border:10px solid red;
 如果某一个小要素后面是空格隔开的，那么就是**上右下左**的顺序：  
 
 ```css
-border-width:10px 20px;
-border-style:solid dashed dotted;
-border-color:red green blue yellow;
-```
+border-style: solid dotted dashed;
+border-color: red green blue;
+border-width: 20px 10px ;
+```  
+
