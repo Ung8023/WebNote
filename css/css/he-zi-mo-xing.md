@@ -127,3 +127,14 @@ padding是4个方向的，所以能够分别描述4个方向的padding，有两�
     padding-bottom: 15px;
 }
 ```
+
+###### 清除默认padding
+一些元素，默认带有padding，比如ul标签。所以，我们为了做站的时候，便于控制，总是喜欢清除这个默认的padding：  
+
+```html
+*{
+    margin: 0;
+    padding: 0;
+}
+```
+
