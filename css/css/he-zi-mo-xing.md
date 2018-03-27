@@ -246,3 +246,11 @@ border-left-color: blue;
     ```css
     border-left: none;
     ```
+
+3. 通过指定border宽度为0去掉border
+    
+    ```css
+    border-width: 0;
+    border-left-width: 0;
+    
+    ```
