@@ -252,4 +252,42 @@ clear就是清除，both指的是左浮动、右浮动都要清除。意思就�
 ```
 
 #### 清除浮动3: 隔墙法
+```html
+<style type="text/css">
+    li {
+        float: left;
+        width: 90px;
+        height: 40px;
+        background-color: gold;
+        text-align: center;
+    }
 
+    .cl {
+        clear: both;
+    }
+
+    div.wall {
+        height: 1px;
+    }
+</style>
+......
+<div>
+    <ul>
+        <li>第1个li</li>
+        <li>第2个li</li>
+        <li>第3个li</li>
+        <li>第4个li</li>
+        <li>第5个li</li>
+    </ul>
+</div>
+<div class="wall cl"></div>
+<div class="div2">
+    <ul >
+        <li>第01个li</li>
+        <li>第02个li</li>
+        <li>第03个li</li>
+        <li>第04个li</li>
+        <li>第05个li</li>
+    </ul>
+</div>
+```
