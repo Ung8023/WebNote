@@ -314,7 +314,9 @@ text-align:right;    文本居右
 2. 使用hack(单独给队首的元素，写一个一半的margin)
 
     ```html
-    ul li.no1{	_margin-left:20px;}
+    ul li.no1{	
+        _margin-left:20px;
+    }
     
     <li class="no1"></li>
     ```
