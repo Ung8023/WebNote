@@ -37,4 +37,11 @@
 ![](/assets/css标签分类块级元素与行内元素.png)
 
 ### 块级元素和行内元素的相互转换
-块级元素可以设置为行内元素，行内元素可以设置为块级元素。通过在css中指定`display`属性来更改。
+块级元素可以设置为行内元素，行内元素可以设置为块级元素。通过在css中指定`display`属性来更改。  
+
+```css
+div {
+    display: inline;
+    background-color: pink;
+}
+```
