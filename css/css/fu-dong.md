@@ -214,23 +214,22 @@ div挡住了p，但是p中的文字不会被挡住，形成“字围”效果。
 clear就是清除，both指的是左浮动、右浮动都要清除。意思就是：清除别人对我的影响。**这种方法有一个非常大的、致命的问题，margin失效了。**
 
 ```html
-    <style type="text/css">
-        li {
-            float: left;
-            width: 90px;
-            height: 40px;
-            background-color: gold;
-            text-align: center;
-        }
+<style type="text/css">
+    li {
+        float: left;
+        width: 90px;
+        height: 40px;
+        background-color: gold;
+        text-align: center;
+    }
 
-        .div2 {
-            margin-top: 10px;
-            clear: both;
-        }
+    .div2 {
+        margin-top: 10px;
+        clear: both;
+    }
 
-    </style>
-</head>
-<body>
+</style>
+......
 <div>
     <ul>
         <li>第1个li</li>
@@ -251,3 +250,6 @@ clear就是清除，both指的是左浮动、右浮动都要清除。意思就�
     </ul>
 </div>
 ```
+
+#### 清除浮动3: 隔墙法
+
