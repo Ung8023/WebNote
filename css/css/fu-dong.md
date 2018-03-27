@@ -293,4 +293,27 @@ clear就是清除，both指的是左浮动、右浮动都要清除。意思就�
 ```
 
 #### 内墙法
+```html
+
+......
+<div>
+    <ul>
+        <li>第1个li</li>
+        <li>第2个li</li>
+        <li>第3个li</li>
+        <li>第4个li</li>
+        <li>第5个li</li>
+    </ul>
+    <div class="cl"></div>
+</div>
+<div class="div2">
+    <ul >
+        <li>第01个li</li>
+        <li>第02个li</li>
+        <li>第03个li</li>
+        <li>第04个li</li>
+        <li>第05个li</li>
+    </ul>
+</div>
+```
 
