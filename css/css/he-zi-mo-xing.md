@@ -235,4 +235,8 @@ border-left-color: blue;
 ```
 
 #### 去掉border
+1. 去掉所有border  
 
+    ```css
+    border: none;
+    ```
