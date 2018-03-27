@@ -148,4 +148,9 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 ```
 
 ### border
-border就是边框。边框有三个要素：粗细、线型、颜色。颜色如果不写，默认是黑色。另外两个属性不写，显示不出来边框。
+border就是边框。边框有三个要素：粗细、线型、颜色。颜色如果不写，默认是黑色。另外两个属性不写，显示不出来边框。  
+
+#### 线型
+![](/assets/border线型.png)  
+
+| 值 | |
