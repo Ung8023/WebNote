@@ -240,3 +240,9 @@ border-left-color: blue;
     ```css
     border: none;
     ```
+    
+2. 去掉某一方向的border
+    
+    ```css
+    border-left: none;
+    ```
