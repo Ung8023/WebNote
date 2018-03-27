@@ -332,5 +332,11 @@ clear就是清除，both指的是左浮动、右浮动都要清除。意思就�
 
 #### 清除浮动5: `overflow:hidden;`
 
+overflow就是“溢出”的意思， hidden就是“隐藏”的意思。  
+ 
+```css
+overflow:hidden
+```
 
+表示“溢出隐藏”。所有溢出边框的内容，都要隐藏掉。
 
