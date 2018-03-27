@@ -182,3 +182,17 @@ border:1px solid red;
 border属性能够被拆分:  
 1）按3要素:`border-width、border-style、border-color`   
 2) 按方向：border-top、border-right、border-bottom、border-left
+
+##### 按3要素拆开
+```css
+border-width:10px;    → 边框宽度
+border-style:solid;     → 线型
+border-color:red;      → 颜色。
+```
+
+等价于：  
+
+```css
+border:10px solid red;
+```
+
