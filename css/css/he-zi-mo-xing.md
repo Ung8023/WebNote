@@ -322,6 +322,8 @@ text-align:right;    文本居右
     ```
     
 ##### 3px-bug
+儿子元素右浮动用`margin-right`设置距离，导致多出3px；
+
 ```html
 <style type="text/css">
 *{
