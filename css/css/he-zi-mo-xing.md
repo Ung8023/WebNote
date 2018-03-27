@@ -102,7 +102,7 @@ padding是4个方向的，所以能够分别描述4个方向的padding，有两�
 
 3. 只写两个值
     
-    ```html
+    ```css
     .box {
         /* 后面两个分别为下和左，没写则分别与上和右一样，下为10px，左为20px */
         padding: 10px 20px;
@@ -111,7 +111,7 @@ padding是4个方向的，所以能够分别描述4个方向的padding，有两�
     
 4. 只写一个值
 
-    ```html
+    ```css
     .box {
         /* 如果只写一个值，则四个方向的padding都为这个值为10px */
         padding: 10px;
