@@ -50,3 +50,39 @@ span {
 ```
 
 #### 浮动的元素互相贴靠
+```html
+<style type="text/css">
+    .box1 {
+        width: 200px;
+        height: 300px;
+        float: left;
+        background-color: pink;
+    }
+
+    .box2 {
+        width: 200px;
+        height: 150px;
+        float: left;
+        background-color: purple;
+    }
+
+    .box3 {
+        width: 300px;
+        height: 150px;
+        float: left;
+        background-color: orange;
+    }
+</style>
+......
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+```
+##### 有足够空间展示3个的宽
+![](/assets/有足够空间展示3个的宽.png)
+##### 宽度不够显示3个
+![](/assets/宽度不够3个.png)
+##### 剩余宽度不够显示长的
+![](/assets/第二个下面空间不够两个.png)
