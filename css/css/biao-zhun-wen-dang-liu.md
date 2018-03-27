@@ -43,5 +43,7 @@
 div {
     display: inline;
     background-color: pink;
+    width: 500px;
+    height: 500px;
 }
 ```
