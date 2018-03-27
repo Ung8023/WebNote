@@ -29,3 +29,8 @@ div.box {
 </div>
 ```
 
+#### width和height
+css中定义的width和height不一定是盒子的真实占有宽高。
+
+1. 真实占有宽度 = 左border + 左padding + width + 右padding + 右border
+2. 真实占有高度 = 上border + 上padding + height + 下padding + 下border
