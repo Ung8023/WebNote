@@ -116,9 +116,9 @@ div挡住了p，但是p中的文字不会被挡住，形成“字围”效果。
 
 ```html
 <style type="text/css">
-div{
-    float: left;
-    background-color: gold;
+    div{
+        float: left;
+        background-color: gold;
     }	
 </style>
 ```
