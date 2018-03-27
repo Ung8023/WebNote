@@ -74,4 +74,8 @@ padding是4个方向的，所以能够分别描述4个方向的padding，有两�
     * `padding-right: 20px;`
     * `padding-bottom: 20px;`
     * `padding-left: 20px;`
-
+2. 使用连写方式:
+    
+    ```html
+    padding:30px 20px 40px 100px;
+    ```
