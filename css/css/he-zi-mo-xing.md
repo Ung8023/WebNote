@@ -294,3 +294,10 @@ text-align:right;    文本居右
 ##### IE6双倍margin bug
 当出现连续浮动的元素，携带和浮动方向相同的margin时，队首的元素，会双倍marign。
 
+```html
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+```
