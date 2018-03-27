@@ -38,5 +38,25 @@ css中定义的width和height不一定是盒子的真实占有宽高。
 ##### 两个300*300的盒子：
 
 ```html
+<style type="text/css">
+    div.box1 {
+        width: 280px;
+        height: 280px;
+        padding: 15px;
+        border: solid 5px red;
+    }
 
+    div.box2 {
+        width: 280px;
+        height: 280px;
+        padding: 10px;
+        border: solid 10px green;
+    }
+
+</style>
+......
+<body>
+    <div class="box1">第一个盒子</div>
+    <div class="box2">第二个盒子</div>
+</body>
 ```
