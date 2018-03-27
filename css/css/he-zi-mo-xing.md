@@ -204,3 +204,21 @@ border-color: red green blue;
 border-width: 20px 10px ;
 ```  
 
+![](/assets/border3要素拆分效果图.png)
+
+##### 按方向拆分
+```css
+border-top: 10px solid red;
+border-right: 10px solid red;
+border-bottom: 10px solid red;
+border-left: 10px solid red;
+
+...等价于...
+border:10px solid red;
+```
+
+**按方向还能再拆一层，就是把每个方向的，每个要素拆开，一共12条语句**  
+
+```css
+
+```
