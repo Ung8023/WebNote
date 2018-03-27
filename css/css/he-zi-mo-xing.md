@@ -252,5 +252,4 @@ border-left-color: blue;
     ```css
     border-width: 0;
     border-left-width: 0;
-    
     ```
