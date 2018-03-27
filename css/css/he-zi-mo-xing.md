@@ -113,6 +113,7 @@ padding是4个方向的，所以能够分别描述4个方向的padding，有两�
 
     ```html
     .box {
+        /* 如果只写一个值，则四个方向的padding都为这个值为10px */
         padding: 10px;
     }
     ```
