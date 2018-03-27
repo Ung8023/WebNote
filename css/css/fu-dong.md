@@ -399,3 +399,28 @@ overflow:hidden
     </ul>
 </div>
 ```
+
+#### 浏览器兼容问题
+##### 浏览器hack
+就是使用浏览器提供的后门，针对某一种浏览器做兼容。  
+**IE6留了一个后门，就是只要给css属性之前，加上下划线，这个属性就是IE6认识的专有属性。**
+
+##### IE6不支持小于12px的盒子，任何小于12px的盒子在IE6中都大
+解决办法很简单，就是将盒子的字号，设置小（小于盒子的高），比如0px。  
+
+```css
+height: 4px;
+_font-size: 0px;
+```
+
+##### IE6不支持用`overflow:hidden`清除浮动
+_zoom:1;能够触发浏览器hasLayout机制。  
+overflow:hidden;的本意，就是溢出盒子的border的东西隐藏，这个功能是IE6兼容的。不兼容的是overflow:hidden;清除浮动的时候。
+
+```css
+.over {
+    overflow: hidden;
+    _zoom: 1;
+}
+```
+
