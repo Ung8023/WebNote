@@ -271,3 +271,10 @@ margin-right: auto;
 简写为
 margin: 0 auto;
 ```
+
+##### 注意点：
+1. 使用`margin:0 auto;` 的盒子，必须有width，有明确的width
+2. 只有标准流的盒子，才能使用margin:0 auto; 居中。也就是说，当一个盒子浮动了、绝对定位了、固定定位了，都不能使用`margin:0 auto;`
+3. `margin:0 auto;`是在居中盒子，不是居中文本。文本的居中，要使用`text-align:center;`
+
+####
