@@ -39,12 +39,28 @@
 ### 块级元素和行内元素的相互转换
 块级元素可以设置为行内元素，行内元素可以设置为块级元素。通过在css中指定`display`属性来更改。  
 
+#### 块级元素转成行内元素
 ```css
 div {
     display: inline;
     background-color: pink;
     width: 500px;
     height: 500px;
+}
+```
+
+一旦给一个标签设置了`display: inline;`那么这个标签立即变为行内元素，此时它和一个span无异：  
+
+  1. 此时这个div不能设置宽度、高度；
+  2. 此时这个div可以和行内元素并排显示。
+  
+#### 行内元素转成块级元素
+```css
+span {
+    display: block;
+    width: 200px;
+    height: 300px;
+    background-color: red;
 }
 ```
 
