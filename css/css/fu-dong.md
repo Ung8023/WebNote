@@ -292,9 +292,22 @@ clear就是清除，both指的是左浮动、右浮动都要清除。意思就�
 </div>
 ```
 
-#### 内墙法
+#### 清除浮动4: 内墙法
 ```html
+<style type="text/css">
+    li {
+        float: left;
+        width: 90px;
+        height: 40px;
+        background-color: gold;
+        text-align: center;
+    }
 
+    .cl {
+        clear: both;
+    }
+
+</style>
 ......
 <div>
     <ul>
@@ -316,4 +329,8 @@ clear就是清除，both指的是左浮动、右浮动都要清除。意思就�
     </ul>
 </div>
 ```
+
+#### 清除浮动5: `overflow:hidden;`
+
+
 
