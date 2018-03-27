@@ -362,3 +362,40 @@ overflow:hidden
 </body>
 ```
 
+##### 通过给父亲加 `overflow:hidden` 属性，能够撑出父亲的高，达到清除浮动的效果
+
+```html
+<style type="text/css">
+    li {
+        float: left;
+        width: 90px;
+        height: 40px;
+        background-color: gold;
+        text-align: center;
+    }
+
+    .over {
+        overflow: hidden;
+    }
+
+</style>
+......
+<div class="over" >
+    <ul>
+        <li>第1个li</li>
+        <li>第2个li</li>
+        <li>第3个li</li>
+        <li>第4个li</li>
+        <li>第5个li</li>
+    </ul>
+</div>
+<div >
+    <ul >
+        <li>第01个li</li>
+        <li>第02个li</li>
+        <li>第03个li</li>
+        <li>第04个li</li>
+        <li>第05个li</li>
+    </ul>
+</div>
+```
