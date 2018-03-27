@@ -174,7 +174,7 @@ border就是边框。边框有三个要素：粗细、线型、颜色。颜色�
 #### 拆分
 border是一个综合属性，  
 
-```html
+```css
 border:1px solid red;
 ```
 
