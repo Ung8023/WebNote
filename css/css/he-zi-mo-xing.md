@@ -179,3 +179,6 @@ border是一个综合属性，
 border:1px solid red;
 ```
 
+border属性能够被拆分:  
+1）按3要素:`border-width、border-style、border-color`   
+2) 按方向：border-top、border-right、border-bottom、border-left
