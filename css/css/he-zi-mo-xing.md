@@ -220,5 +220,16 @@ border:10px solid red;
 **按方向还能再拆一层，就是把每个方向的，每个要素拆开，一共12条语句**  
 
 ```css
-
+border-top-style: solid;
+border-top-width: 10px;
+border-top-color: red;
+border-right-style: dashed;
+border-right-width: 5px;
+border-right-color: green;
+border-bottom-style: dotted;
+border-bottom-width: 1px;
+border-bottom-color: orange;
+border-left-style: solid;
+border-left-width: 3px;
+border-left-color: blue;
 ```
