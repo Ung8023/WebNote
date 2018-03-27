@@ -81,4 +81,13 @@ padding是4个方向的，所以能够分别描述4个方向的padding，有两�
     ```
 
 ##### padding 属性连写：
+书写顺序： `上 右 下 左`
 
+1. 四个属性全写
+
+    ```html
+    .box {
+        padding: 10px 20px 30px 40px;
+    }
+    ```
+    
