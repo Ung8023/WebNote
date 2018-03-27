@@ -301,3 +301,20 @@ text-align:right;    文本居右
     <li></li>
 </ul>
 ```
+
+**解决方案：**  
+
+1. 使浮动的方向和margin的方向相反
+
+    ```css
+    float: left;
+    margin-right: 40px;
+    ```
+
+2. 使用hack(单独给队首的元素，写一个一半的margin)
+
+    ```html
+    ul li.no1{	_margin-left:20px;}
+    
+    <li class="no1"></li>
+    ```
