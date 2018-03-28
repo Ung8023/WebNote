@@ -38,8 +38,8 @@ span {
 ### font-family
 #### 设置字体
 ##### 写中文名
-```
+```css
 p {
-            font-family: 微软雅黑;
-        }
+    font-family: 微软雅黑;
+}
 ```
