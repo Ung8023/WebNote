@@ -18,9 +18,10 @@ p {
 }
 ```
 ### 文本属性连写
-font:后边写属性的值。一定按照书写顺序。  
-文本属性连写文字大小和字体为必写项。  
-
 ```css
 font: font-style font-weight font-size/line-height font-family;
 ```
+
+font:后边写属性的值。一定按照书写顺序。  
+文本属性连写文字大小和字体为必写项。  
+
