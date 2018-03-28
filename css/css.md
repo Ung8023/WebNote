@@ -61,3 +61,6 @@ color属性的值，可以使英文单词，red、blue、yellow等，也可以�
 #### 下划线
 下划线：`font-decoration:underline;` 快捷键 tdu + tab
 无下划线：`font-decoration:none;` 快捷键 tdn + tab
+
+#### 首行缩进
+`text-indent: 2em;`
