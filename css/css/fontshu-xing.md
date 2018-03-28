@@ -37,6 +37,22 @@ span {
 
 ### font-family
 #### 设置字体
+常见字体英文名与unicode编码  
+
+| 字体 | 英文名 | unicode |
+| :---: | :---: | :---: |
+| 宋体 | SimSun | \5B8B\4F53 |
+| 新宋体       | NSimSun          | \65B0\5B8B\4F53 |
+| 黑体        |  SimHei          |  \9ED1\4F53 |
+| 微软雅黑     |  microsoft yahei |  \5FAE\8F6f\96C5\9ED1 |
+| 楷体_GB2312 |  KaiTi_GB2312    |  \6977\4F53_GB2312 |
+| 隶书        |  LiSu            |  \96B6\4E66 |
+| 幼圆        |  YouYuan         |  \5E7C\5706 |
+| 华文细黑     |  STXiHei         | \534E\6587\7EC6\9ED1 |
+| 细明体       |  MingLiU         | \7EC6\660E\4f53 |
+| 新细明体     | PMingLiU        | \65B0\7EC6\660E\4f53 |
+
+
 ##### 写中文名
 ```css
 p {
@@ -52,5 +68,5 @@ font-family: "Microsoft YaHei";
 ##### 使用unicode编码
 ```css
 font-family: \5B8B\4F53;
-
 ```
+
