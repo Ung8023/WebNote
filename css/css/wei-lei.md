@@ -13,7 +13,7 @@ a:link {
 }
 
 a:visited {
-color: green;
+    color: green;
 }
 
 a:hover {
