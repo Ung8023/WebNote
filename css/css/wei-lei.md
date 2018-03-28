@@ -42,5 +42,21 @@ a标签在使用的时候，非常的难。因为不仅仅要控制a这个盒子
 **a标签中，描述盒子； 伪类中描述文字的样式、背景。**  
 
 ```css
+.nav ul li a {
+    display: block;
+    width: 120px;
+    height: 50px;
+}
 
+.nav ul li a:link, .nav ul li a:visited {
+    text-decoration: none;
+    background-color: yellowgreen;
+    color: white;
+}
+
+.nav ul li a:hover {
+    background-color: pink;
+    font-weight: 700;
+    color: yellow;
+}
 ```
