@@ -8,5 +8,19 @@ CSS 伪类用于向某些选择器添加特殊的效果。
 
 ### a标签的四种伪类
 ```css
+a:link {
+    color: blue;
+}
 
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}
+
+a:visited {
+    color: green;
+}
 ```
