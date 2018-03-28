@@ -27,5 +27,19 @@ div {
 只适用于单行文本垂直居中！！不适用于多行。如果想让多行文本垂直居中，需要设置盒子的padding  
 
 ```html
-
+<style type="text/css">
+    div {
+        line-height: 20px;
+        background-color: yellow;
+        height: 170px;
+        padding-top: 130px;
+    }
+</style>
+.......
+<body>
+    <div>asfahfjahfjkahsfjkahsfjkhasfjk
+    asdgadsgadgadsgadsgadgadsgadsgasdgasdg
+    asgadsgadsgasgasgasdgadsgadgadgadsgasdg
+    asdgadsgadsgadsgadgadgasgadsgadsgadsgasdg</div>
+</body>
 ```
