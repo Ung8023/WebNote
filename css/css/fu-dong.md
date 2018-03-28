@@ -124,6 +124,8 @@ div挡住了p，但是p中的文字不会被挡住，形成“字围”效果。
 ```
 
 ### 清除浮动
+**指的是清除浮动带来的不利影响**
+
 不清除浮动的效果:  
 
 ![](/assets/不清除浮动的效果.png)
@@ -399,6 +401,54 @@ overflow:hidden
     </ul>
 </div>
 ```
+
+#### 清除浮动6:通过伪元素清除浮动
+```html
+<style type="text/css">
+
+    .clearfix:after {
+        content: ".";
+        display: block;
+        height: 0;
+        line-height: 0;
+        visibility: hidden;
+        clear: both;
+    }
+
+    /*兼容IE*/
+    .clearfix {
+        zoom: 1;
+    }
+
+    li {
+        float: left;
+        width: 90px;
+        height: 40px;
+        background-color: gold;
+        text-align: center;
+    }
+</style>
+......
+<div >
+    <ul class="clearfix">
+        <li>第1个li</li>
+        <li>第2个li</li>
+        <li>第3个li</li>
+        <li>第4个li</li>
+        <li>第5个li</li>
+    </ul>
+</div>
+<div >
+    <ul class="clearfix">
+        <li>第01个li</li>
+        <li>第02个li</li>
+        <li>第03个li</li>
+        <li>第04个li</li>
+        <li>第05个li</li>
+    </ul>
+</div>
+```
+
 
 #### 浏览器兼容问题
 ##### 浏览器hack
