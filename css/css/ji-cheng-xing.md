@@ -10,7 +10,7 @@ color、 text-开头的、line-开头的、font-开头的。
 
 如果所有的页面的文字都是红色，都是16px，可以利用继承性:
 
-```html
+```css
 body {
     color: red;
     font-size: 16px;
