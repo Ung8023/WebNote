@@ -7,6 +7,16 @@
 | `font-style: normal 或 italic;` | normal 默认值  italic  斜体 |
 | `line-height:` | 行高 |
 
+
+```css
+p {
+            font-style: italic;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 16px;
+            font-family: 微软雅黑;
+        }
+```
 ### 文本属性连写
 
 ```css
