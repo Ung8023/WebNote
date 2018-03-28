@@ -10,12 +10,12 @@
 
 ```css
 p {
-            font-style: italic;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 16px;
-            font-family: 微软雅黑;
-        }
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: 微软雅黑;
+}
 ```
 ### 文本属性连写
 
