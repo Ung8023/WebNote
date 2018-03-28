@@ -30,4 +30,5 @@
   * [浮动](css/css/fu-dong.md)
   * 行高
   * [font属性](css/css/fontshu-xing.md)
+  * [伪类](css/css/wei-lei.md)
 
