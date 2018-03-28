@@ -50,3 +50,7 @@ font-family: "Microsoft YaHei";
 ```
 
 ##### 使用unicode编码
+```css
+font-family: \5B8B\4F53;
+
+```
