@@ -34,3 +34,12 @@ span {
     font: 16px/16px "Microsoft YaHei";
 }
 ```
+
+### font-family
+#### 设置字体
+##### 写中文名
+```
+p {
+            font-family: 微软雅黑;
+        }
+```
