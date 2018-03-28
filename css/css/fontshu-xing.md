@@ -70,3 +70,10 @@ font-family: "Microsoft YaHei";
 font-family: \5B8B\4F53;
 ```
 
+**获取字体的unicode**  
+
+1. 浏览器打开console
+2. 输入`escape("字体")`,使用英文的括号和双引号.
+
+
+
