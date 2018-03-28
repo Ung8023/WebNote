@@ -504,7 +504,7 @@ _font-size: 0px;
 
 ##### IE6不支持用`overflow:hidden`清除浮动
 
-\_zoom:1;能够触发浏览器hasLayout机制。  
+_zoom:1;能够触发浏览器hasLayout机制。  
 overflow:hidden;的本意，就是溢出盒子的border的东西隐藏，这个功能是IE6兼容的。不兼容的是overflow:hidden;清除浮动的时候。
 
 ```css
