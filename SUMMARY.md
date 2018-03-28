@@ -31,4 +31,5 @@
   * 行高
   * [font属性](css/css/fontshu-xing.md)
   * [伪类](css/css/wei-lei.md)
+  * [background属性](css/css/backgroundshu-xing.md)
 
