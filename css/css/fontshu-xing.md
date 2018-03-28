@@ -26,5 +26,11 @@ font:后边写属性的值。一定按照书写顺序。
 文本属性连写文字大小和字体为必写项。  
 
 ```csss
+div {
+    font: normal 700 16px/16px 微软雅黑;
+}
 
+span {
+    font: 16px/16px "Microsoft YaHei";
+}
 ```
