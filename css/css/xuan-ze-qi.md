@@ -88,6 +88,34 @@ id选择器的选择符是“#”，需要先给标签指定id属性
 
 ```
 
+一些基础类名：  
+
+| 功能 | 类名 |
+| :---: | :---: |
+|    头   |   header |
+| 内容 | content/container |
+| 尾 | footer |
+| 导航 | nav |
+| 侧栏 | sidebar |
+| 栏目 | column |
+| 页面外围控制整体布局宽度 | wrapper |
+| 左右中 | left right center |
+| 登录条 | loginbar |
+| 标记 | logo |
+| 广告 | banner |
+| 页面主体 | main |
+| 热点 | hot |
+| 新闻 | news |
+| 下载 | download |
+| 子导航 | subnav |
+| 菜单 | menu |
+| 子菜单 | submenu |
+| 搜索 | search |
+| 友情链接 | friendlink |
+| 页脚 | footer |
+| 版权 | copyright |
+| 滚动 | scroll |
+
 ##### 特点
 1. 任何标签都可以携带class属性，class属性可以重复，比如，页面上可能有很多标签都有`param2`这个类
 2. 同一个标签，可能同时属于多个类，用空格隔开
