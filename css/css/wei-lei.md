@@ -12,6 +12,10 @@ a:link {
     color: blue;
 }
 
+a:visited {
+color: green;
+}
+
 a:hover {
     color: red;
 }
@@ -20,9 +24,6 @@ a:active {
     color: yellow;
 }
 
-a:visited {
-    color: green;
-}
 ```
 
 | 伪类 | 含义 |
