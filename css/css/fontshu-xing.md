@@ -10,5 +10,5 @@
 ### 文本属性连写
 
 ```css
-
+font: font-style font-weight font-size/line-height font-family
 ```
