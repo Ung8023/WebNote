@@ -68,7 +68,20 @@ a标签在使用的时候，非常的难。因为不仅仅要控制a这个盒子
 也就是说，a标签涵盖了link、visited的状态。  
 
 ```css
+.nav ul li a {
+    display: block;
+    width: 120px;
+    height: 50px;
+    text-decoration: none;
+    background-color: yellowgreen;
+    color: white;
+}
 
+.nav ul li a:hover {
+    background-color: pink;
+    font-weight: 700;
+    color: yellow;
+}
 ```
 
 
