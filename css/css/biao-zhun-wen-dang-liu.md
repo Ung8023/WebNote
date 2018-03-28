@@ -71,6 +71,16 @@ span {
   2. 此时这个span必须霸占一行了，别人无法和他并排
   3. 如果不设置宽度，将撑满父亲
 
+#### 块元素与行内元素转行内块元素
+```css 
+div, a, span, strong {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+```
+
 
 ### 脱离标准流
 标准流里面限制非常多，标签的性质恶心。比如，我们现在就要并排、并且就要设置宽高。所以有时需要脱离标准流。  
