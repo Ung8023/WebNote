@@ -11,5 +11,13 @@
 **一行文字** 行高和父元素高度一致的时候，垂直居中显示
 
 ```html
-
+div {
+    height: 200px;
+    background-color: orange;
+    line-height: 200px;
+}
+......
+<body>
+    <div>asjfkasjfklajsfklajfskl</div>
+</body>
 ```
