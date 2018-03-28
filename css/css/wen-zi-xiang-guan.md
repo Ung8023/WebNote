@@ -22,3 +22,10 @@ div {
     <div>asjfkasjfklajsfklajfskl</div>
 </body>
 ```
+
+#### 多行文本居中 需要设置padding
+只适用于单行文本垂直居中！！不适用于多行。如果想让多行文本垂直居中，需要设置盒子的padding  
+
+```html
+
+```
