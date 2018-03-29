@@ -83,3 +83,9 @@ background-position: 描述左右 描述上下;
     ```css
     background-position: left bottom;
     ```
+
+2. 右上角
+
+    ```css
+    background-position: right top;
+    ```
