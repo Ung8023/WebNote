@@ -61,5 +61,5 @@ background-repeat: no-repeat | repeat | repeat-x | repeat-y | no-repeat;
 position就是“位置”的意思。background-position就是背景定位属性  
 
 ```css
-background-position: 向左偏移量，向右偏移量
+background-position: 向左偏移量 向右偏移量
 ```
