@@ -76,3 +76,10 @@ background-position: 描述左右 描述上下;
 
 * 描述左右的词：left center right
 * 描述上下的词：top  center bottom
+
+##### EG
+1. 左下角
+    
+    ```css
+    background-position: left bottom;
+    ```
