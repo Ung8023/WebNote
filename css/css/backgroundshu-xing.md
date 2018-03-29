@@ -48,3 +48,6 @@ background-image: url(../css02/1.jpg);
 ```
 
 url()表示网址，uniform resouces locator 统一资源定位符。
+
+### background-repeat属性
+设置背景图是否重复的，重复方式的。
