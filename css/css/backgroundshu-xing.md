@@ -41,3 +41,10 @@ background-color: #FF0000;
 ```
 
 ### background-image属性
+用于给盒子加上背景图片：  
+
+```css
+background-image:url(images/wuyifan.jpg);
+```
+
+url()表示网址，uniform resouces locator 同意资源定位符images/wuyifan.jpg 就是相对路径。
