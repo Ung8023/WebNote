@@ -63,3 +63,5 @@ position就是“位置”的意思。background-position就是背景定位属�
 ```css
 background-position: 向右偏移量 向下偏移量
 ```
+
+#### css精灵
