@@ -100,4 +100,12 @@ background-attachment: fixed;
 ### background 属性连写
 ```css
 background: red url("images/dibanzhuan.jpg") no-repeat left top fixed;
+
+/* 等价于 */
+
+background-color:red;
+background-image:url("images/dibanzhuan.jpg");
+background-repeat:no-repeat;
+background-position:left top;
+background-attachment:fixed;
 ```
