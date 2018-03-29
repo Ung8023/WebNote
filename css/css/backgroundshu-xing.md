@@ -73,3 +73,6 @@ background-position: 向右偏移量 向下偏移量
 ```css
 background-position: 描述左右 描述上下;
 ```
+
+* 描述左右的词：left center right
+* 描述上下的词：top  center bottom
