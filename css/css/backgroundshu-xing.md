@@ -58,7 +58,7 @@ background-repeat: no-repeat | repeat | repeat-x | repeat-y | no-repeat;
 
 ### background-position属性
 #### 含义
-position就是“位置”的意思。background-position就是背景定位属性  
+position就是“位置”的意思。background-position就是背景定位属性,定位属性可以为负数。  
 
 ```css
 background-position: 向右偏移量 向下偏移量
