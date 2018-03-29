@@ -91,7 +91,7 @@ background-position: 描述左右 描述上下;
     ```
     
 ### background-attachment
-背景是否固定。  
+背景是否固定。  会被固定住，不会被滚动条滚走。
 
 ```css
 background-attachment: fixed;
