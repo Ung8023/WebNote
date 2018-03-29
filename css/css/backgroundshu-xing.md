@@ -26,5 +26,11 @@ ff就是10进制的255 ，00 就是10进制的0，00就是10进制的0。所以�
 ##### 16进制简化写法
 十六进制可以简化为3位，所有#aabbcc的形式，能够简化为#abc;
 
+```css
+background-color: #123;
+background-color: #112233;
+```
 
 ### background-color属性
+
+
