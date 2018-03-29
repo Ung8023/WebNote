@@ -40,3 +40,4 @@ background-color: #f00;
 background-color: #FF0000;
 ```
 
+### background-image属性
