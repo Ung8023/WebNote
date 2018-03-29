@@ -47,4 +47,4 @@ background-color: #FF0000;
 background-image: url(../css02/1.jpg);
 ```
 
-url()表示网址，uniform resouces locator 统一资源定位符 就是相对路径。
+url()表示网址，uniform resouces locator 统一资源定位符。
