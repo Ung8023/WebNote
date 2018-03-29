@@ -55,3 +55,11 @@ url()表示网址，uniform resouces locator 统一资源定位符。
 ```css
 background-repeat: no-repeat | repeat | repeat-x | repeat-y | no-repeat;
 ```
+
+### background-position属性
+#### 含义
+position就是“位置”的意思。background-position就是背景定位属性  
+
+```css
+background-position: 向左偏移量，向右偏移量
+```
