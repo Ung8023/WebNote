@@ -19,4 +19,7 @@ background-color: red;
 background-color: rgb(255, 0, 0);
 ```
 
+#### 使用16进制表示
+`#FFFFFF`以#开头的都是16进制。也是两位两位看，看r、g、b，但是没有逗号隔开。
+
 ### background-color属性
