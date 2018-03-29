@@ -32,5 +32,11 @@ background-color: #112233;
 ```
 
 ### background-color属性
+在css中通过`background-color: 颜色; `来指定背影颜色  
 
+```css
+background-color: red;
+background-color: #f00;
+background-color: #FF0000;
+```
 
