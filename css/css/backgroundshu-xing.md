@@ -71,5 +71,5 @@ background-position: 向右偏移量 向下偏移量
 
 #### 使用单词描述
 ```css
-background-position: 描述左右 描述上下
+background-position: 描述左右 描述上下;
 ```
