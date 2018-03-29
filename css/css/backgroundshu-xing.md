@@ -89,3 +89,10 @@ background-position: 描述左右 描述上下;
     ```css
     background-position: right top;
     ```
+    
+### background-attachment
+背景是否固定。  
+
+```css
+background-attachment: fixed;
+```
