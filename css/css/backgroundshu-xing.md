@@ -96,3 +96,8 @@ background-position: 描述左右 描述上下;
 ```css
 background-attachment: fixed;
 ```
+
+### background 属性连写
+```css
+background: red url("images/dibanzhuan.jpg") no-repeat left top fixed;
+```
