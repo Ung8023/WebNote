@@ -47,4 +47,4 @@ background-color: #FF0000;
 background-image:url(images/wuyifan.jpg);
 ```
 
-url()表示网址，uniform resouces locator 同意资源定位符images/wuyifan.jpg 就是相对路径。
+url()表示网址，uniform resouces locator 统一资源定位符images/wuyifan.jpg 就是相对路径。
