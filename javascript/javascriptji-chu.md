@@ -66,7 +66,7 @@ alert("Hello");
 ```
 
 ### console
-console表示“控制台”
+console表示“控制台”，输出在控制台的东西，不会出现在页面中。
 
 #### log
 ```js
