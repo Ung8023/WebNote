@@ -53,4 +53,12 @@ div {
 position: relative;
 top: 40px;
 left: 40px;
+....... 
+等价于
+.......
+position: relative;
+top: 40px;
+left: 40px;
+
+
 ```
