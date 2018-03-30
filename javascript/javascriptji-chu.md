@@ -69,3 +69,6 @@ alert("Hello");
 console表示“控制台”
 
 #### log
+```js
+console.log("这是一个log");
+```
