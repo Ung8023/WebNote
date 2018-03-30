@@ -47,3 +47,10 @@ div {
 #### 定位值
 可以用left、right来描述盒子右、左的移动；  
 可以用top、bottom来描述盒子的下、上的移动。
+
+##### 往右下移动
+```css
+position: relative;
+top: 40px;
+left: 40px;
+```
