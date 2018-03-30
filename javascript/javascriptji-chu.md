@@ -66,3 +66,4 @@ alert("Hello");
 ```
 
 ### console
+console表示“控制台”
