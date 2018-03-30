@@ -65,7 +65,7 @@ right: -40px;
 ```css
 position: relative;
 top: 40px;
-right: -40px;
+right: 40px;
 ....... 
 等价于
 .......
