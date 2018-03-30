@@ -91,7 +91,12 @@ bottom: -40px;
 2. 绝对定位之后，标签就不区分所谓的行内元素、块级元素了，不需要display:block;就可以设置宽、高了
 
 ```css
-
+span {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
 ```
 
 
