@@ -78,5 +78,11 @@ bottom: -40px;
 绝对定位比相对定位更灵活。  
 
 ```css
-
+.box2 {
+    background-color: yellowgreen;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
 ```
+
