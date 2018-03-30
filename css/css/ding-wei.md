@@ -213,3 +213,43 @@ div {
 ```css
 z-index: 133;
 ```
+
+```html
+<style type="text/css">
+.box1 {
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    position: absolute;
+    z-index: 201;
+}
+
+.box2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    background-color: blue;
+    z-index: 200;
+}
+
+.box3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    z-index: 202;
+    background-color: green;
+}
+</style>
+........
+<body>
+    <div class="box1"></div>
+    <div class="box2">
+        <div class="box3"></div>
+    </div>
+</body>
+```
