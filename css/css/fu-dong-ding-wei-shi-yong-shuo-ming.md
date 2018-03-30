@@ -32,4 +32,4 @@ virtual-align对inline-block最敏感，默认属性是：`vertical-align:baseli
 3. `display: none;` 隐藏元素，隐藏之后不占据原来位置
 4. `display: block;` 元素可见
 
-`display: none;` 和 `display: block;` 常配合js使用
+`display: none;` 和 `display: block;` 常配合js使用。
