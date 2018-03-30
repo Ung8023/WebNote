@@ -65,3 +65,4 @@ alert(456);
 alert("Hello");
 ```
 
+### console
