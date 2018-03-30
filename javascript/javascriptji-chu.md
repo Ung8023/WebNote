@@ -19,3 +19,8 @@ ECMAScript不是一门语言，而是一个标准。符合这个标准的比较�
 ```html
 <script src="myScript.js"></script>
 ```
+
+#### alert语句
+```
+alert("今天天气很好呀");
+```
