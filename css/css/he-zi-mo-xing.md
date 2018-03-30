@@ -234,6 +234,37 @@ border-left-width: 3px;
 border-left-color: blue;
 ```
 
+#### 边框合并(border-collapse)
+```css
+table {
+    width: 300px;
+    height: 500px;
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid red;
+}
+```
+
+#### 获取焦点
+```html
+<style type="text/css">
+    .username {
+        border: 0 none;  /*去掉边框*/
+        outline-style: none;   /*去掉轮廓线*/
+        background-color: #ccc;
+        border: 1px dashed green;
+    }
+
+    .username:focus {
+        background: red;
+    }
+</style>
+........
+<label for="username">用户名</label><input type="text" id="username" class="username">
+```
+
 #### 去掉border
 1. 去掉所有border  
 
