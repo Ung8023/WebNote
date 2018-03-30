@@ -38,3 +38,5 @@
 
 ## JavaScript
 
+* [JavaScript基础](javascript/javascriptji-chu.md)
+
