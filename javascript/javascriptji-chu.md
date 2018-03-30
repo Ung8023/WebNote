@@ -5,3 +5,9 @@
 
 ### ECMAScript
 ECMAScript不是一门语言，而是一个标准。符合这个标准的比较常见的有：JavaScript、Action Script（Flash中用的语言）。
+
+### 程序书写位置
+#### 在页面内写
+```
+
+```
