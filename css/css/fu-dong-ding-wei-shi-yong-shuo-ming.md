@@ -11,3 +11,4 @@
 
 ### 图片和文字垂直居中对齐
 virtual-align对inline-block最敏感，默认属性是：`vertical-align:baseline;`
+
