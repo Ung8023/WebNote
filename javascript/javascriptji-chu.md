@@ -47,5 +47,5 @@ alert("hello");
     这是一个多行注释
     这是一个多行注释
 */
-alert();
+alert("yes it is");
 ```
