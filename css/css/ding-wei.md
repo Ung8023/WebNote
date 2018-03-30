@@ -58,7 +58,5 @@ left: 40px;
 .......
 position: relative;
 top: 40px;
-left: 40px;
-
-
+left: -40px;
 ```
