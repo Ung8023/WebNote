@@ -60,3 +60,8 @@ position: relative;
 top: 40px;
 left: -40px;
 ```
+
+##### 往左上移动
+```css
+
+```
