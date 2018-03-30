@@ -191,4 +191,13 @@ div {
 ### 固定定位(IE6不兼容)
 固定定位，就是相对浏览器窗口定位。页面如何滚动，这个盒子显示的位置不变。固定定位脱标！
 
-
+```css
+div {
+    width: 1000px;
+    height: 60px;
+    position: fixed;
+    left: 50%;
+    margin-left: -500px;
+    background-color: #2FBC71;
+}
+```
