@@ -39,4 +39,5 @@
 ## JavaScript
 
 * [JavaScript基础](javascript/javascriptji-chu.md)
+  * [变量](javascript/javascriptji-chu/bian-liang.md)
 
