@@ -25,3 +25,11 @@ virtual-align对inline-block最敏感，默认属性是：`vertical-align:baseli
 | length | |
 | % | 使用‘line-height’属性的百分比值来排列此元素 |
 | inherit | 从父元素继承 | 
+
+### css可见性
+1. `overflow: hidden;` 溢出隐藏
+2. `visibility: hidden;` 隐藏元素，隐藏之后还占据原来位置
+3. `display: none;` 隐藏元素，隐藏之后不占据原来位置
+4. `display: block;` 元素可见
+
+`display: none;` 和 `display: block;` 常配合js使用
