@@ -64,8 +64,8 @@ right: -40px;
 ##### 往左上移动
 ```css
 position: relative;
-top: 40px;
-bottom: 40px;
+right: 40px;
+bottom: -40px;
 ....... 
 等价于
 .......
