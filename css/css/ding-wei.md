@@ -113,4 +113,31 @@ span {
 
 
 #### 绝对定位以盒子为参考点
-一个绝对定位的元素，如果父辈元素中出现了也定位了的元素，那么将以父辈这个元素，为参考点。
+一个绝对定位的元素，如果父辈元素中出现了也定位了的元素，那么将以父辈这个元素，为参考点。
+
+```html
+<style type="text/css">
+.parent {
+    border: 2px solid orange;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 300px;
+    top: 300px;
+}
+
+.son {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+</style>
+......
+<div class="parent">
+    <div class="son"></div>
+</div>
+```
