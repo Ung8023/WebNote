@@ -7,6 +7,7 @@
 ECMAScript不是一门语言，而是一个标准。符合这个标准的比较常见的有：JavaScript、Action Script（Flash中用的语言）。
 
 ### 程序书写位置
+`<script>`标签既可以出现在`head`中，也可以出现在`body`中。
 #### 在页面内写script标签对中写
 ```html
 <script type="text/javascript">
