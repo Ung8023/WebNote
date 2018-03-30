@@ -177,5 +177,13 @@ span {
 **left:50%; margin-left:负的宽度的一半。**
 
 ```css
-
+div {
+    width: 1000px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    background-color: blue;
+    margin-left: -500px;
+}
 ```
