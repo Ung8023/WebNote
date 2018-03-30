@@ -9,12 +9,9 @@ ECMAScript不是一门语言，而是一个标准。符合这个标准的比较�
 ### 程序书写位置
 #### 在页面内写script标签对中写
 ```
-<head>
-    ......
-    <script type="text/javascript">
-        书写javascript代码
-    </script>
-</head>
+<script type="text/javascript">
+    书写javascript代码
+</script>
 ```
 
 #### 外部js引入
