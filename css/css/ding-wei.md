@@ -134,7 +134,6 @@ span {
     left: 100px;
     top: 100px;
 }
-
 </style>
 ......
 <div class="parent">
