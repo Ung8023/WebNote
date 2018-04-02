@@ -49,3 +49,20 @@ console.log(typeof c);
 console.log(typeof d);
 console.log(typeof f);
 ```
+
+##### 连字符和加号
+"+" 在js中有两层含义  
+
+1. 连字符
+2. 加号
+
+###### 加法
+如果加号两边都是数值类型数据，那么就是加法
+
+```js
+var a = 100;
+var b = 1000;
+console.log(a + b);
+console.log(10 + 20);
+console.log("a" + "b");
+```
