@@ -42,4 +42,8 @@ var a = Math.pow(3, 4*5);
 var a = Math.sqrt(81);
 ```
 
-
+### 变量格式转换
+#### 字符串转数字
+```js
+parseInt("5");
+```
