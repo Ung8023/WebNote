@@ -34,3 +34,18 @@ console.log(typeof c);
 console.log(typeof d);
 console.log(typeof f);
 ```
+
+#### 字符串型
+```js
+var a = "a";
+var b = "中文字符串";
+var c = "123123";
+var d = "啊哈哈哈";
+var f = "";
+
+console.log(typeof a);
+console.log(typeof b);
+console.log(typeof c);
+console.log(typeof d);
+console.log(typeof f);
+```
