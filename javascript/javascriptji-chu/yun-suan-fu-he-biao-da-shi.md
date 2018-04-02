@@ -29,7 +29,17 @@
 var a = Math.pow(3, 4);
 ```  
 
-计算 3<sup>4*5</sup> :
+计算 3<sup>4*5</sup> :  
 
+```js
+var a = Math.pow(3, 4*5);
+```
+
+##### 开根号
+计算 `√81` :   
+
+```js
+var a = Math.sqrt(81);
+```
 
 
