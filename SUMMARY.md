@@ -40,4 +40,5 @@
 
 * [JavaScript基础](javascript/javascriptji-chu.md)
   * [变量](javascript/javascriptji-chu/bian-liang.md)
+  * [运算符和表达式](javascript/javascriptji-chu/yun-suan-fu-he-biao-da-shi.md)
 
