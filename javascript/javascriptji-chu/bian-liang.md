@@ -19,4 +19,5 @@ abstract、boolean、byte、char、class、const、debugger、double、enum、ex
 ### 变量类型
 通过`typeof 变量`，可以检测变量的类型。
 #### 数值类型
-JavaScript中，只要是个数，那么就是数值型的，无论整浮、无论大小、无论正负，都是number类型的。
+JavaScript中，只要是个数，那么就是数值型的，无论整浮、无论大小、无论正负，都是number类型的。  
+
