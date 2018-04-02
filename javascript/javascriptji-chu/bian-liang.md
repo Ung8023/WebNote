@@ -35,6 +35,13 @@ console.log(typeof d);
 console.log(typeof f);
 ```
 
+##### 不同进制表示数值
+###### 十进制
+`var a = 10;`
+
+###### 八进制
+`var a = 04752`
+
 #### 字符串型
 ```js
 var a = "a";
