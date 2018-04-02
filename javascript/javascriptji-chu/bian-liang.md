@@ -95,3 +95,5 @@ console.log("a" + "b");
 ```
 
 #### 布尔型
+只有两种`true false`
+
