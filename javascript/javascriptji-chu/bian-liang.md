@@ -64,5 +64,14 @@ var a = 100;
 var b = 1000;
 console.log(a + b);
 console.log(10 + 20);
+console.log(3.5 + 10);
+```
+
+###### 连字符
+```js
+var a = 100;
+var b = 1000;
+console.log(a + b);
+console.log("a + b");
 console.log("a" + "b");
 ```
