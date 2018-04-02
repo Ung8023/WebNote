@@ -15,3 +15,7 @@ var a = 100;
 ```js
 abstract、boolean、byte、char、class、const、debugger、double、enum、export、extends、final、float、gotoimplements、import、int、interface、long、native、package、private、protected、public、short、static、super、synchronized、throws、transient、volatile
 ```
+
+### 变量类型
+通过`typeof 变量`，可以检测变量的类型。
+#### 数值类型
