@@ -26,6 +26,13 @@ ECMAScript不是一门语言，而是一个标准。符合这个标准的比较�
 <script src="myScript.js"></script>
 ```
 
+步骤：  
+
+1. 先创建一个外部JS文件
+2. 通过src将外部js调用。
+3. 写js代码的时候，分号不能省略。
+4. 推荐将JS代码写在html结束标签后边  将多个JS文件合成为一个JS文件
+
 #### alert语句
 
 ```js
