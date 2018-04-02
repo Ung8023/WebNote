@@ -21,3 +21,16 @@ abstract、boolean、byte、char、class、const、debugger、double、enum、ex
 #### 数值类型
 JavaScript中，只要是个数，那么就是数值型的，无论整浮、无论大小、无论正负，都是number类型的。  
 
+```js
+var a = 100;
+var b = 232323232323232323;
+var c = 1.030300303;
+var d = -123123;
+var f = 0.324;
+
+console.log(typeof a);
+console.log(typeof b);
+console.log(typeof c);
+console.log(typeof d);
+console.log(typeof f);
+```
