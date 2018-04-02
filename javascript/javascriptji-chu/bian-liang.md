@@ -95,5 +95,13 @@ console.log("a" + "b");
 ```
 
 #### 布尔型
-只有两种`true false`
+只有两种`true false`  
 
+```js
+var a = true;
+var b = false;
+console.log(a);
+console.log(b);
+console.log(typeof a);
+console.log(typeof b)
+```
