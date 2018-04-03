@@ -49,3 +49,27 @@ parseInt("5");
 parseInt("123的衣阿华圣诞节卡号123123");//123,后面的中文自动消失，只保留最开头的数字
 parseInt(5.5 + 4.8); // 10 自动取整
 ```
+
+### 关系运算符 
+关系运算符，得到的结果都是布尔值，也就是说得到的东西要么是true，要么是false  
+
+| 运算符 | 含义 |
+| :---: | :--- |
+| >	 | 大于号 |
+| <	 | 小于号 |
+| >= 	 | 大于或等于 |
+| <=   | 小于或等于 |
+| == 	 | 等于 |
+| ===  | 全等于 |
+| !=	 | 不等于 |
+| !==  | 不全等于 |
+ 
+```js
+document.write(6 < 10 );
+document.write("<br>");
+document.write(6 < 1 );
+document.write("<br>");
+document.write(6 == 6 );
+document.write("<br>");
+document.write(6 != 6 );
+```
