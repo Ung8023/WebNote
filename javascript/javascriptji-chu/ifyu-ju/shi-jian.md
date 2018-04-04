@@ -30,3 +30,18 @@
     事件处理;
 }
 ```
+
+#### 示例
+```html
+<body>
+    <div id="demo"></div>
+    <button id="btn">点我一下</button>
+<script type="text/javascript">
+    var demo = document.getElementById("demo");
+    var btn = document.getElementById("btn");
+    btn.onclick = function () {
+        demo.style.backgroundColor = "blue";
+    }
+</script>
+</body>
+```
