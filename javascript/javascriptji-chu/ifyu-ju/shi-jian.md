@@ -23,3 +23,10 @@
 | onunload    | 关闭网页时 |
 | onsubmit    | 表单提交事件 |
 | onreset     | 重置表单时 |
+
+#### 事件处理程序
+```js
+= function() {
+
+}
+```
