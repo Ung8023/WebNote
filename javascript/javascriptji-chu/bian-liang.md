@@ -18,6 +18,27 @@ var a = 100;
 abstract、boolean、byte、char、class、const、debugger、double、enum、export、extends、final、float、gotoimplements、import、int、interface、long、native、package、private、protected、public、short、static、super、synchronized、throws、transient、volatile
 ```
 
+### 变量的作用域
+#### 全局变量
+1. 在最外层声明的变量。
+2. 在函数体内部，但是没有声明var 的变量也是全局变量
+
+```js
+var a = 10 // 全局变量
+function func() {
+ a= b =2; // b 为全局变量
+}
+
+```
+
+#### 局部变量
+```js
+function func() {
+ var a =10; // 局部变量
+ console.log(a);
+}
+```
+
 ### 变量类型
 通过`typeof 变量`，可以检测变量的类型。
 #### 数值类型
