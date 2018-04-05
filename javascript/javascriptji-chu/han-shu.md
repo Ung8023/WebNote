@@ -2,6 +2,7 @@
 ```js
 function 函数名(x1, x2, x3...) {
     函数体
+    return m;
 }
 ```
 
