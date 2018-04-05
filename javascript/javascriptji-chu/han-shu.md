@@ -96,3 +96,16 @@ add(12, 23, 23, 434, 54);
 #### arguments用途
 1. 用于判断传入参数的个数
 2. 中间的参数b变为“可选”参数，就只能通过arguments判断，然后重新调整参数并赋值。
+
+    ```js
+    // foo(a[, b], c)
+    // 接收2~3个参数，b是可选参数，如果只传2个参数，b默认为null：
+    function foo(a, b, c) {
+        if (arguments.length === 2) {
+            // 实际拿到的参数是a和b，c为undefined
+            c = b; // 把b赋给c
+            b = null; // b变为默认值
+        }
+        // ...
+    }
+    ```
