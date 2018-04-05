@@ -82,12 +82,12 @@ add(12); // 返回NaN
 
 ```
 function add() {
-            var sum = 0;
-            for (var i = 0; i< arguments.length; i ++) {
-                sum += arguments[i];
-            }
-            console.log(sum);
-        }
+    var sum = 0;
+    for (var i = 0; i< arguments.length; i ++) {
+        sum += arguments[i];
+    }
+    console.log(sum);
+}
 
-        add(12, 23, 23, 434, 54);
+add(12, 23, 23, 434, 54);
 ```
