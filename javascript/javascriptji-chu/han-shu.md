@@ -78,4 +78,16 @@ add(12); // 返回NaN
 ```
 
 ### arguments
-只在函数内部起作用，永远指向当前函数的调用者传入的所有参数。
+只在函数内部起作用，永远指向当前函数的调用者传入的所有参数。  
+
+```
+function add() {
+            var sum = 0;
+            for (var i = 0; i< arguments.length; i ++) {
+                sum += arguments[i];
+            }
+            console.log(sum);
+        }
+
+        add(12, 23, 23, 434, 54);
+```
