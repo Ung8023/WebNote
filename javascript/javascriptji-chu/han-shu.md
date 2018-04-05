@@ -1,10 +1,10 @@
 ### 函数
+
 ```js
 function 函数名(x1, x2, x3...) {
     函数体
     return m;
 }
-
 ```
 
 1. `function` 用来指出这是一个函数的关键字。
@@ -15,6 +15,7 @@ function 函数名(x1, x2, x3...) {
 
 ### 函数的定义方法
 #### 通过function关键字创建
+
 ```js
 function fun() {
     alert("函数被调用了");
@@ -24,10 +25,17 @@ fun();
 ```
 
 #### 通过函数直接量声明
+
 ```js
 var fun = function() {
    alert("函数被调用了"); 
 }
 
 fun();
+```
+
+#### 通过Function声明
+
+```js
+
 ```
