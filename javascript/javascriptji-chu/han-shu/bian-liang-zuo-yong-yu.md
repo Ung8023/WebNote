@@ -177,9 +177,9 @@ var c = array[2];
 
 ```js
 var array = ['aaa', ['bbb', 'ccc'], 'ddd'];
-        var [a, [b, c], d] = array;
-        console.log(a);
-        console.log(b);
-        console.log(c);
-        console.log(d);
+var [a, [b, c], d] = array;
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
 ```  
