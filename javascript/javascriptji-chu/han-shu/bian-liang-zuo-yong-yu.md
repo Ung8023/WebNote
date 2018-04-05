@@ -195,3 +195,16 @@ console.log(c); // ccc
 console.log(d); // ddd
 ```
 
+#### 对对象解构
+对对象解构时，变量名要和对象中的名称一样。
+
+```js
+var car = {
+    name: 'aodi',
+    speed: 120,
+    color: 'red'
+};
+
+var {name, speed, color} = car;
+console.log("name = " + name + ", speed = " + speed + "color = " + color);
+```
