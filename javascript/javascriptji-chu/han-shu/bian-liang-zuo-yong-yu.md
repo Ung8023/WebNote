@@ -109,7 +109,7 @@ function circle() {
 'use strict';
 
 function circle() {
-    for (var i=0; i<100; i++) {
+    for (let i=0; i<100; i++) {
         //
     }
     i += 100; // 仍然可以引用变量i
