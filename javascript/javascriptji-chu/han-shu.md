@@ -22,3 +22,12 @@ function fun() {
 
 fun();
 ```
+
+#### 通过函数直接量声明
+```js
+var fun = function() {
+   alert("函数被调用了"); 
+}
+
+fun();
+```
