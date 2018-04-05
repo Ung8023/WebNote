@@ -129,3 +129,10 @@ function foo(a) {
 
 #### ES6写法
 ES6标准引入了rest参数
+
+```js
+function foo(a, ...rest) {
+    console.log('a = ' + a);
+    console.log(rest);
+}
+```
