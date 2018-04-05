@@ -37,5 +37,9 @@ fun();
 #### 通过Function声明
 
 ```js
-
+var func = new Function("
+    var a =10;
+    var b =20;
+    alert(a + b);
+");
 ```
