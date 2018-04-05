@@ -209,3 +209,10 @@ var car = {
 var {name, speed, color} = car;
 console.log("name = " + name + ", speed = " + speed + "color = " + color);
 ```
+
+#### 解构对象使用变量名与属性名不同时写法
+
+```js
+var {name:a, speed:b } = car;
+console.log("name = " + a + ", speed = " + b + "color = " + color);
+```
