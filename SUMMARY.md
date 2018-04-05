@@ -44,4 +44,5 @@
   * [分支语句与循环语句](javascript/javascriptji-chu/ifyu-ju.md)
   * [事件](javascript/javascriptji-chu/ifyu-ju/shi-jian.md)
   * [函数](javascript/javascriptji-chu/han-shu.md)
+    * 变量作用域
 
