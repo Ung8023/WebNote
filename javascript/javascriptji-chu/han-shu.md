@@ -79,7 +79,7 @@ add(12); // 返回NaN
 
 ### arguments
 只在函数内部起作用，永远指向当前函数的调用者传入的所有参数。    
-`arguments`类似`Array`但它不是一个`Array`
+`arguments`类似`Array`但它不是一个`Array`  
 
 ```
 function add() {
