@@ -185,3 +185,11 @@ console.log(b);
 console.log(c);
 console.log(d);
 ```  
+
+##### 忽略某些元素
+
+```js
+var array = ['aaa', ['bbb', 'ccc'], 'ddd'];
+var [, [, c], d] = array;
+
+```
