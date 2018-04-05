@@ -14,3 +14,9 @@ a = 20; //Uncaught ReferenceError: a is not defined
 console.log(a);
 func();
 ```
+
+#### 不同函数中的同名变量互不影响
+
+```js
+
+```
