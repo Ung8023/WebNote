@@ -49,7 +49,9 @@ func();
 ### 调用函数
 
 ```js
-
+function add(x1, x2) {
+    return x1 + x2;
+}
 ```
 
 #### 正常调用
