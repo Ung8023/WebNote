@@ -175,6 +175,7 @@ var c = array[2];
 ```
 
 ##### 嵌套数组的解构
+嵌套层次和位置要保持一致
 
 ```js
 var array = ['aaa', ['bbb', 'ccc'], 'ddd'];
