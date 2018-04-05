@@ -45,3 +45,10 @@ var func = new Function("
 
 func();
 ```
+
+### 调用函数
+#### 正常调用
+
+```js
+func();
+```
