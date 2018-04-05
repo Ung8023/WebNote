@@ -229,8 +229,15 @@ var car = {
     },
     color: 'red'
 };
-//可以指定默认值，如果car没有name属性，则返回'飞鸽'
+//可以指定默认值，如果car没有name属性，则返回'飞鸽'.
+// speed 不是变量，而是指定max和acc使用speed下的属性
 var {name='飞鸽' ,speed:{max, acc}} = car;
 
 console.log("name = " + name + ", maxSpeed = " + max + ", acc = " + acc);
+```
+
+#### 变量再次赋值
+
+```js
+
 ```
