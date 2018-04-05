@@ -191,6 +191,7 @@ console.log(d);
 ```js
 var array = ['aaa', ['bbb', 'ccc'], 'ddd'];
 var [, [, c], d] = array;
-console.log(c);
-        console.log(d);
+console.log(c); // ccc
+console.log(d); // ddd
 ```
+
