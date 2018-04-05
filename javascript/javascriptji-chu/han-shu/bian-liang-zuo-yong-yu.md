@@ -76,7 +76,8 @@ JavaScript的函数定义有个特点，它会先扫描整个函数体的语句�
 
 ```js
 function a() {
-    console.log();
+    console.log(num);
+    var name = 20;
 }
 ```
 
