@@ -222,15 +222,15 @@ console.log("name = " + a + ", speed = " + b + "color = " + color);
 
 ```js
 var car = {
-        name: 'aodi',
-        speed: {
-            max: 240,
-            acc: 50
-        },
-        color: 'red'
-    };
+    name: 'aodi',
+    speed: {
+        max: 240,
+        acc: 50
+    },
+    color: 'red'
+};
 
-    var {name ,speed:{max, acc}} = car;
+var {name ,speed:{max, acc}} = car;
 
-    console.log("name = " + name + ", maxSpeed = " + max + ", acc = " + acc);
+console.log("name = " + name + ", maxSpeed = " + max + ", acc = " + acc);
 ```
