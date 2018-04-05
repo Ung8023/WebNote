@@ -211,6 +211,7 @@ console.log("name = " + name + ", speed = " + speed + "color = " + color);
 ```
 
 #### 解构对象使用变量名与属性名不同时写法
+var{ 对象属性名:变量名, 对象属性名:变量名 ...... }
 
 ```js
 var {name:a, speed:b } = car;
