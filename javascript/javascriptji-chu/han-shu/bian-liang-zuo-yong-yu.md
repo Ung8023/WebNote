@@ -18,5 +18,15 @@ func();
 #### 不同函数中的同名变量互不影响
 
 ```js
+'use strict'
+function a() {
+    var b = 10;
+    b = 20;
+    console.log(b);
+}
 
+function b() {
+    var b = 'x';
+    console.log(b);
+}
 ```
