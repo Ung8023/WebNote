@@ -117,5 +117,12 @@ add(12, 23, 23, 434, 54);
 ```js
 function foo(a) {
     var i, rest = [];
+    if (arguments.length > 1) {
+        for (i = 1; i < arguments.length; i ++) {
+            rest.push(arguments[i]);
+        }
+    }
+    console.log("a = " + a);
+    console.log(rest);
 }
 ```
