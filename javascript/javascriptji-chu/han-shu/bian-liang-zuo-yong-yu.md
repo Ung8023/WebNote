@@ -35,5 +35,15 @@ function b() {
 内部函数可以访问外部函数定义的变量,但是外部函数不能访问内部函数的变量
 
 ```js
+'use strict'
+function a() {
+    var a = 10;
 
+    function b() {
+        a = 20;
+        console.log(a)
+    }
+    b();
+}
+a();
 ```
