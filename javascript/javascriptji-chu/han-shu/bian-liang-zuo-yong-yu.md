@@ -95,7 +95,7 @@ function a() {
 ```js
 'use strict';
 
-function foo() {
+function circle() {
     for (var i=0; i<100; i++) {
         //
     }
