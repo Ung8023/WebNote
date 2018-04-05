@@ -79,5 +79,13 @@ function a() {
     console.log(num);
     var name = 20;
 }
+.......
+//等价于
+function a() {
+    var num;
+    console.log(num);
+    num = 20;
+}
+
 ```
 
