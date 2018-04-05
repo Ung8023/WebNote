@@ -154,3 +154,13 @@ var PI = 3.14;
 const PI = 3.14;
 PI = 3; //某些浏览器不报错，但是无效果！
 ```
+
+### 解构赋值
+#### 对数组的解构赋值
+```js
+var array = ['aaaa', 'bbbb', 'cccc'];
+var [a, b, c] = array;
+console.log(a);
+console.log(b);
+console.log(c);
+```
