@@ -211,9 +211,26 @@ console.log("name = " + name + ", speed = " + speed + "color = " + color);
 ```
 
 #### 解构对象使用变量名与属性名不同时写法
-var{ 对象属性名:变量名, 对象属性名:变量名 ...... }
+`var{ 对象属性名:变量名, 对象属性名:变量名 ...... }`
 
 ```js
 var {name:a, speed:b } = car;
 console.log("name = " + a + ", speed = " + b + "color = " + color);
+```
+
+#### 解构嵌套对象
+
+```js
+var car = {
+        name: 'aodi',
+        speed: {
+            max: 240,
+            acc: 50
+        },
+        color: 'red'
+    };
+
+    var {name ,speed:{max, acc}} = car;
+
+    console.log("name = " + name + ", maxSpeed = " + max + ", acc = " + acc);
 ```
