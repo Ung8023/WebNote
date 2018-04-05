@@ -229,8 +229,8 @@ var car = {
     },
     color: 'red'
 };
-
-var {name ,speed:{max, acc}} = car;
+//可以指定默认值，如果car没有name属性，则返回'飞鸽'
+var {name='飞鸽' ,speed:{max, acc}} = car;
 
 console.log("name = " + name + ", maxSpeed = " + max + ", acc = " + acc);
 ```
