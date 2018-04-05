@@ -239,5 +239,9 @@ console.log("name = " + name + ", maxSpeed = " + max + ", acc = " + acc);
 #### 变量再次赋值
 
 ```js
-
+var x, y;
+{x, y} = {name:'aodi', x: 100, y:200}  //语法错误
+.........
+解决方案:使用()括起来
+({x, y} = {name:'aodi', x: 100, y:200})
 ```
