@@ -126,3 +126,6 @@ function foo(a) {
     console.log(rest);
 }
 ```
+
+#### ES6写法
+ES6标准引入了rest参数
