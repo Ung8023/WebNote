@@ -93,5 +93,8 @@ function a() {
 不在任何函数内定义的变量就具有全局作用域。实际上，JavaScript默认有一个全局对象window，全局作用域的变量实际上被绑定到window的一个属性。
 
 ```js
-
+'use strict';
+var str = "this is a String";
+alert(str);
+alert(window.str);
 ```
