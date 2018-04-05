@@ -42,4 +42,6 @@ var func = new Function("
     var b =20;
     alert(a + b);
 ");
+
+func();
 ```
