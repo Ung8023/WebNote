@@ -98,3 +98,15 @@ var str = "this is a String";
 alert(str);
 alert(window.str);
 ```
+
+#### 顶层函数也为全局变量
+
+```js
+function func() {
+    alert("func");
+}
+
+func();
+window.func();
+```
+
