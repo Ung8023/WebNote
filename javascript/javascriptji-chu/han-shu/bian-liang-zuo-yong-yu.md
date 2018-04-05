@@ -157,10 +157,29 @@ PI = 3; //某些浏览器不报错，但是无效果！
 
 ### 解构赋值
 #### 对数组的解构赋值
+
 ```js
 var array = ['aaaa', 'bbbb', 'cccc'];
 var [a, b, c] = array;
 console.log(a);
 console.log(b);
 console.log(c);
+
+.......
+//等价于
+
+var a = array[0];
+var b = array[1];
+var c = array[2];
 ```
+
+##### 嵌套数组的解构
+
+```js
+var array = ['aaa', ['bbb', 'ccc'], 'ddd'];
+        var [a, [b, c], d] = array;
+        console.log(a);
+        console.log(b);
+        console.log(c);
+        console.log(d);
+```  
