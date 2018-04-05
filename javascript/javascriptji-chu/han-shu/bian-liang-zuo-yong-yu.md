@@ -47,3 +47,23 @@ function a() {
 }
 a();
 ```
+
+##### 内部函数和外部函数变量重名
+
+```js
+'use strict'
+function a() {
+    var a = 10;
+    var c = 100;
+
+    function b() {
+        a = 20;
+        var c = 'bbbb';
+        console.log(a);
+        console.log(c);
+    }
+    b();
+    console.log(c);
+}
+a();
+```
