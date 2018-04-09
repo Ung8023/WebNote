@@ -42,6 +42,7 @@ console.log(typeof f);
   console.log\(“abc”/18\);  //结果是NaN  
   Undefined和任何数值计算为NaN;  
   NaN 与任何值都不相等，包括 NaN 本身
+  但是使用typeof NaN 是Number类型
   ```  
   
 2. isNaN\(\) :任何不能被转换为数值的值都会导致这个函数返回 true
