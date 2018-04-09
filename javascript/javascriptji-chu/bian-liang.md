@@ -27,4 +27,4 @@ abstract、boolean、byte、char、class、const、debugger、double、enum、ex
     
 2. 复杂数据类型
 
-    
+    Object、function、Array、Date、RegExp、Error.......
