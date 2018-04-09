@@ -26,3 +26,7 @@ console.log(typeof (String(c)));
 ```
 
 #### 变量.toSting()
+
+```js
+
+```
