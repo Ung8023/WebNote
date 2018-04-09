@@ -102,5 +102,10 @@ while(条件) {
     语句;
 }
 
-
+var a = 1;
+var sum = 0;
+while(a < 100) {
+    sum += a;
+    a ++;
+}
 ```
