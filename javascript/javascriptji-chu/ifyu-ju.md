@@ -47,7 +47,25 @@ var b = a == 12 ? 2 : 1;
 
 ### switch语句
 #### 基本语法
+```js
+switch (a) {
+    case 1 :
+        
+        break;
+    case 2:
+        
+        break;
+    case 12:
+        
+        break;
+    default:
+        break;
+}
+```
 
+#### 注意点
+1. break可以省略；如果省略，代码会继续执行下一个case
+2. 语句在比较值时使用的是全等操作符，因此不会发生类型转换
 
 ## 循环语句
 ### for循环语句
