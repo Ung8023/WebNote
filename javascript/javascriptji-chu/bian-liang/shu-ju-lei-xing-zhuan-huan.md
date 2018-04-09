@@ -74,6 +74,9 @@ console.log(parseInt("23asdaw2323445")); //23
 取出现首个非数字前的浮点数。（没有小数取整）  
 
 ```js
-
+console.log(parseFloat(true)); //NaN
+console.log(parseFloat("a2323")); //NaN
+console.log(parseFloat("23asdaw2323445")); //23
+console.log(parseFloat("23.2323asdaw2323445")); //23.2323
 ```
 
