@@ -141,5 +141,58 @@ do {
 ```js
 输出1-100所有偶数
 
+//第1种实现
+function a1() {
+    for (var a = 1; a <= 100; a ++) {
+        if (a % 2 == 1) {
+            continue;
+        }else {
+            console.log(a);
+        }
+    }
+}
+
+//第2种实现
+function a2() {
+    for (var a = 1; a <= 100; ) {
+        if (a % 2 == 0) {
+            console.log(a);
+        }
+        a ++;
+    }
+}
+
+//第3种实现
+function a3() {
+    var a = 1;
+    for (; a <= 100; ) {
+        if (a % 2 == 0) {
+            console.log(a);
+        }
+        a ++;
+    }
+}
+
+//第4种实现
+function a4() {
+    var a = 1;
+    while ( a <= 100) {
+        if (a % 2 == 0) {
+            console.log(a);
+        }
+        a ++;
+    }
+}
+
+//第5种实现
+function a5() {
+    var a = 1;
+    do {
+        if (a % 2 == 0) {
+            console.log(a);
+        }
+        a ++;
+    } while ( a <= 100);
+}
 
 ```
