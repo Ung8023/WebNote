@@ -54,7 +54,7 @@ var b = arr[3]; // b = "5";
 var c = arr[6]; // c = undefined;
 ```
 
-##### 修改元素
+#### 修改元素
 将对应位置的值修改
 如果通过索引赋值时，索引超过了范围，同样会引起Array大小的变化
 
@@ -64,5 +64,15 @@ var c = arr[6]; // c = undefined;
 var arr = [1, 2, 3,  "5"];
 arr[1] = 10; // arr变为 [1, 10, 3, "5"];
 arr[6] = 12; // arr变为 [1, 10, 3, "5", undefined, undefined, 12];
+```
 
+#### indexOf(查询元素在数组的索引)
+语法： `array.indexOf(值);`
+
+```js
+var arr = [1, 2, 3, "1", "2"];
+arr.indexOf(2); //1
+arr.indexOf(1); //0
+arr.indexOf("1"); //3
+arr.indexOf(1222); //-1
 ```
