@@ -91,4 +91,17 @@ var newArr3 = arr.slice(); // newArr3 = [1, 2, 3, 4, 5, 6];
 ```
 
 #### push与pop
-`push()`向`Array`的末尾添加若干元素，`pop()`则把`Array`的最后一个元素删除掉,返回当前数组长度.
+`push()`向`Array`的末尾添加若干元素，`pop()`则把`Array`的最后一个元素删除掉,返回数组的新长度.
+
+```js
+var arr3 = [1, 2];
+arr3.push(5);
+arr3.pop();
+console.log(arr3.push(2, 3, 4));
+console.log(arr3.pop());
+```
+
+#### unshift与shift
+如果要往Array的头部添加若干元素，使用unshift()方法，shift()方法则把Array的第一个元素删掉,返回数组的新长度.
+
+
