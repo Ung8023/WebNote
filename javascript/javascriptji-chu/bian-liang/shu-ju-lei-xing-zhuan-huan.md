@@ -89,5 +89,12 @@ console.log(parseFloat("23.2323asdaw2323445")); //23.2323
 ### 简单类型转换成Boolean
 
 ```js
-var bool = Boolean(“1111”);
+console.log(Boolean(12)); //true
+console.log(Boolean(-1)); //true
+console.log(Boolean(0)); //false
+console.log(Boolean(12.23)); //true
+console.log(Boolean("")); //false
+console.log(Boolean("123")); // true
+console.log(Boolean(NaN)); //false
+console.log(Boolean(undefined)); //false
 ```
