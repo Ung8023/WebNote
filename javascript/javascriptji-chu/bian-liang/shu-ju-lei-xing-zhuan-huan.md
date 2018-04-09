@@ -49,5 +49,8 @@ console.log("!@" / 5);
 #### Number(变量)（有非数字字符会出现NaN）
 
 ```js 
-
+console.log(typeof (Number("12312")));
+console.log(typeof (Number("12312.233")));
+console.log(typeof (Number(true)));
+console.log(Number(true)); //1
 ```
