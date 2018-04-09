@@ -31,7 +31,7 @@ volatile
 
 1. 简单数据类型  
 
-    String	  Number   Boolean	undefined
+    String、Number、Boolean、undefined
     
 2. 复杂数据类型
 
