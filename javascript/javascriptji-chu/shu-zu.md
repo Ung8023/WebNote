@@ -102,6 +102,14 @@ console.log(arr3.pop());
 ```
 
 #### unshift与shift
-如果要往Array的头部添加若干元素，使用unshift()方法，shift()方法则把Array的第一个元素删掉,返回数组的新长度.
+使用`unshift()`方法往`Array`的头部添加若干元素，`shift()`方法则把`Array`的第一个元素删掉,返回数组的新长度.
 
+```js
+var arr3 = [1, 2];
+arr3.unshift(5);
+arr3.shift();
+console.log(arr3.unshift(2, 3, 4));
+console.log(arr3.shift());
+
+```
 
