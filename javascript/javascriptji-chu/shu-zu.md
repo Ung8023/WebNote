@@ -78,4 +78,16 @@ arr.indexOf(1222); //-1
 ```
 
 #### slice(截取数组)
-截取Array的部分元素，然后返回一个新的Array
+截取Array的部分元素，然后返回一个新的Array, slice()的起止参数包括开始索引，不包括结束索引  
+
+```js
+var arr = [1, 2, 3, 4, 5, 6];
+//从0开始截取，到3结束，但是不包括3
+var newArr = arr.slice(0, 3); // newArr = [1, 2, 3]
+//从3开始截取，一直到结束
+var newArr2 = arr.slice(3); // newArr2 = [4, 5, 6];
+//不传参数，相当于从头到尾截取，相当于复制一个数组
+var newArr3 = arr.slice(); // newArr3 = [1, 2, 3, 4, 5, 6];
+```
+
+
