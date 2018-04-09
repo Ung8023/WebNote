@@ -21,6 +21,10 @@ abstract、boolean、byte、char、class、const、debugger、double、enum、ex
 ### 变量类型
 通过`typeof 变量`，可以检测变量的类型。  
 
-1. 简单数据类型
+1. 简单数据类型  
+
+    String	  Number   Boolean	undefined
+    
 2. 复杂数据类型
 
+    
