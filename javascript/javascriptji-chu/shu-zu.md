@@ -110,6 +110,5 @@ arr3.unshift(5);
 arr3.shift();
 console.log(arr3.unshift(2, 3, 4));
 console.log(arr3.shift());
-
 ```
 
