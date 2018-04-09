@@ -126,3 +126,22 @@ arr3.sort(); // arr3变为 [2, 3, 5];
 var arr3 = [3, 2, 5];
 arr3.reverse();
 ```
+
+#### splice
+可以从指定的索引开始删除若干元素，然后再从该位置添加若干元素,返回删除的元素
+
+```js
+var arr4 = ['a', 'b', 'c', 'd', 'e'];
+console.log(arr4);
+//从索引1开始，删除2个元素，然后再添加3个元素
+arr4.splice(1, 2, 'f', 'g', 'h');
+console.log(arr4); //["a", "f", "g", "h", "d", "e"]
+
+//从索引2开始删除2个元素，不添加元素;
+arr4.splice(2, 2);
+console.log(arr4); //["a", "f", "d", "e"]
+
+//只添加不删除
+arr4.splice(2, 0, 'i', 'j');
+console.log(arr4); //["a", "f", "i", "j", "d", "e"]
+```
