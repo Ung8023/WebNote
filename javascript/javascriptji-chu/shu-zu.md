@@ -119,3 +119,10 @@ console.log(arr3.shift());
 var arr3 = [3, 2, 5];
 arr3.sort(); // arr3变为 [2, 3, 5];
 ```
+
+#### reverse(反转)
+
+```js
+var arr3 = [3, 2, 5];
+arr3.reverse();
+```
