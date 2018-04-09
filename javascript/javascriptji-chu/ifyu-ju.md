@@ -109,3 +109,26 @@ while(a < 100) {
     a ++;
 }
 ```
+
+#### 死循环
+
+```js
+while(true) {
+    语句;
+}
+```
+
+#### do...while循环（一定会执行一次do中的程序)
+
+```js
+do{
+    语句;
+}while(条件);
+
+var a = 1;
+var sum = 0;
+do {
+    sum += a;
+    a ++;
+}while(a < 100);
+```
