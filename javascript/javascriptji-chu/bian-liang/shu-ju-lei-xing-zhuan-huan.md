@@ -17,7 +17,7 @@ console.log(typeof (b + ""));
 console.log(typeof (c + ""));
 ```
 
-#### 通过String()
+#### 通过String(变量)
 
 ```js
 console.log(typeof (String(a)));
@@ -25,3 +25,4 @@ console.log(typeof (String(b)));
 console.log(typeof (String(c)));
 ```
 
+#### 变量.toSting()
