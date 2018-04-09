@@ -31,6 +31,18 @@ console.log(typeof f);
 3. 无穷大：Infinity
 4. 无穷小：-Infinity
 
+#### NaN
+
+1. NaN 非数值（Not a Number的简写）  
+  console.log(“abc”/18);  //结果是NaNUndefined和任何数值计算为NaN;NaN 与任何值都不相等，包括 NaN 本身
+2. isNaN() :任何不能被转换为数值的值都会导致这个函数返回 true   
+  （isNaN译为是否符合一个标准，什么标准呢？不是一个数字的标准，如果符合了那么就不是一个数字，不符合就是一个数字）  
+    ```js
+    isNaN(NaN);// true  
+    isNaN(“blue”); // true  
+    isNaN(123); // false
+    ```
+    
 #### 不同进制表示数值
 ##### 十进制
 ```js
