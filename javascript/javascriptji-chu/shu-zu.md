@@ -90,4 +90,5 @@ var newArr2 = arr.slice(3); // newArr2 = [4, 5, 6];
 var newArr3 = arr.slice(); // newArr3 = [1, 2, 3, 4, 5, 6];
 ```
 
-
+#### push与pop
+`push()`向`Array`的末尾添加若干元素，`pop()`则把`Array`的最后一个元素删除掉,返回当前数组长度.
