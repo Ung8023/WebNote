@@ -46,15 +46,15 @@ console.log(typeof f);
   
 2. isNaN\(\) :任何不能被转换为数值的值都会导致这个函数返回 true
 
-（isNaN译为是否符合一个标准，什么标准呢？不是一个数字的标准，如果符合了那么就不是一个数字，不符合就是一个数字）
-
-```js
-isNaN(NaN);// true  
-
-isNaN(“blue”); // true  
-
-isNaN(123); // false
-```
+  ```js
+  （isNaN译为是否符合一个标准，什么标准呢？不是一个数字的标准，如果符合了那么就不是一个数字，不符合就是一个数字）
+  
+  isNaN(NaN);// true  
+  
+  isNaN(“blue”); // true  
+  
+  isNaN(123); // false
+  ```
 
 #### 不同进制表示数值
 
