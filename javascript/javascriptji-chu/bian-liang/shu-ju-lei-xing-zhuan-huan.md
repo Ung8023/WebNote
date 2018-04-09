@@ -57,6 +57,7 @@ console.log(Number(true)); //1
 
 #### parseInt与parseFloat
 如果变量中首个字符为字母则结果为NaN
+
 ##### 空串
 空字符串parseInt()和parseFloat()返回NaN，Number("")返回0;
 
