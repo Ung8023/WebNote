@@ -84,4 +84,6 @@ console.log(parseFloat("23.2323asdaw2323445")); //23.2323
 
 1. Boolean类型中：true数值为1；false为0；
 2. null的数值类型为0；
-3. undefined无数值类型或者为NaN;
+3. undefined无数值类型或者为NaN;
+
+### 简单类型转换成Boolean
