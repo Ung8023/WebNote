@@ -60,5 +60,8 @@ var c = arr[6]; // c = undefined;
 ```js
 数组名[索引值] = 要修改成的值;
 
+var arr = [1, 2, 3,  "5"];
+arr[1] = 10; // arr变为 [1, 10, 3, "5"];
+arr[6] = 12; // arr变为 [1, 10, 3, "5", undefined, undefined, 12];
 
 ```
