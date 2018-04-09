@@ -11,7 +11,8 @@
 var a = 10;
 var b = 12.30;
 var c = true;
-console.log(a + "");
-console.log(b + "");
-console.log(c + ""); 
+
+console.log(typeof (a + ""));
+console.log(typeof (b + ""));
+console.log(typeof (c + ""));
 ```
