@@ -117,3 +117,14 @@ console.log(typeof a);
 console.log(typeof b)
 ```
 
+#### Boolean类型有两个字面量
+true和false，区分大小写。（大写不对）虽然Boolean 类型的字面值只有两个，但 ECMAScript 中所有类型的值都有与这两个 Boolean 值等价的值  
+
+##### true
+true、除0数字、“something”、Object(任何对象)为true
+
+##### false
+false、0 、“”、undefined 、null为false
+
+##### if强转
+if判断时会把（）内的值强行转换成boolean类型进行判断。
