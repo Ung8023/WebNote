@@ -65,7 +65,9 @@ console.log(Number(true)); //1
 取出现首个非数字前的整数  
 
 ```js
-
+console.log(parseInt(true)); //NaN
+    console.log(parseInt("a2323")); //NaN
+    console.log(parseInt("23asdaw2323445")); //23
 ```
 
 ##### parseFloat(变量)
