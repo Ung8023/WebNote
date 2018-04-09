@@ -62,5 +62,14 @@ console.log(Number(true)); //1
 空字符串parseInt()和parseFloat()返回NaN，Number("")返回0;
 
 ##### parseInt(变量)
+取出现首个非数字前的整数  
+
+```js
+
+```
+
+##### parseFloat(变量)
+取出现首个非数字前的浮点数。（没有小数取整）  
+
 
 
