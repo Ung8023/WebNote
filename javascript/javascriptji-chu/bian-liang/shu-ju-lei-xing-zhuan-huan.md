@@ -49,7 +49,7 @@ console.log("!@" / 5);
 #### Number(变量)（有非数字字符会出现NaN）
 
 ```js 
-console.log(typeof (Number("12312")));
+console.log(typeof (Number("12312"))); 
 console.log(typeof (Number("12312.233")));
 console.log(typeof (Number(true)));
 console.log(Number(true)); //1
@@ -73,5 +73,7 @@ console.log(parseInt("23asdaw2323445")); //23
 ##### parseFloat(变量)
 取出现首个非数字前的浮点数。（没有小数取整）  
 
+```js
 
+```
 
