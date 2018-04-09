@@ -88,6 +88,7 @@ console.log(parseFloat("23.2323asdaw2323445")); //23.2323
 
 ### 简单类型转换成Boolean
 #### 通过Boolean(变量)
+
 ```js
 console.log(Boolean(12)); //true
 console.log(Boolean(-1)); //true
@@ -98,3 +99,6 @@ console.log(Boolean("123")); // true
 console.log(Boolean(NaN)); //false
 console.log(Boolean(undefined)); //false
 ```
+
+#### 通过 !!变量
+
