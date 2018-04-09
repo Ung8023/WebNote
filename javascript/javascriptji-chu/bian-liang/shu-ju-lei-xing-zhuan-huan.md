@@ -29,5 +29,7 @@ console.log(typeof (String(c)));
 null和undefined无toString方法
 
 ```js
-
+console.log(typeof (a.toString()));
+console.log(typeof (b.toString()));
+console.log(typeof (c.toString()));
 ```
