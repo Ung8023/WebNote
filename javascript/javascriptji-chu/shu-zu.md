@@ -76,3 +76,6 @@ arr.indexOf(1); //0
 arr.indexOf("1"); //3
 arr.indexOf(1222); //-1
 ```
+
+#### slice(截取数组)
+截取Array的部分元素，然后返回一个新的Array
