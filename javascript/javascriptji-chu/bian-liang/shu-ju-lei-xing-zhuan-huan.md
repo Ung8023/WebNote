@@ -54,3 +54,6 @@ console.log(typeof (Number("12312.233")));
 console.log(typeof (Number(true)));
 console.log(Number(true)); //1
 ```
+
+#### parseInt与parseFloat
+
