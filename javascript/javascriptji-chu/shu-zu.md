@@ -67,7 +67,7 @@ arr[6] = 12; // arr变为 [1, 10, 3, "5", undefined, undefined, 12];
 ```
 
 #### indexOf(查询元素在数组的索引)
-语法： `array.indexOf(值);`
+语法： `array.indexOf(值);`,找不到返回-1；
 
 ```js
 var arr = [1, 2, 3, "1", "2"];
