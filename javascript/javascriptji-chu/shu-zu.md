@@ -112,3 +112,10 @@ console.log(arr3.unshift(2, 3, 4));
 console.log(arr3.shift());
 ```
 
+#### sort(排序)
+`sort()`可以对当前`Array`进行排序，它会直接修改当前`Array`的元素位置，直接调用时，按照默认顺序排序  
+
+```js
+var arr3 = [3, 2, 5];
+arr3.sort(); // arr3变为 [2, 3, 5];
+```
