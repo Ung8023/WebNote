@@ -87,7 +87,7 @@ console.log(parseFloat("23.2323asdaw2323445")); //23.2323
 3. undefined无数值类型或者为NaN;
 
 ### 简单类型转换成Boolean
-
+#### 通过Boolean(变量)
 ```js
 console.log(Boolean(12)); //true
 console.log(Boolean(-1)); //true
