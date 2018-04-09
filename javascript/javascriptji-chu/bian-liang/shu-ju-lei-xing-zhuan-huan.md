@@ -26,6 +26,7 @@ console.log(typeof (String(c)));
 ```
 
 #### 变量.toSting()
+null和undefined无toString方法
 
 ```js
 
