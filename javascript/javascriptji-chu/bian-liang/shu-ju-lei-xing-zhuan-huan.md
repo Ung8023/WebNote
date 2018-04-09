@@ -45,3 +45,5 @@ console.log(typeof ("10" - 5));
 console.log(typeof ("10" * 5));
 console.log("!@" / 5);
 ```
+
+#### Number(变量)（有非数字字符会出现NaN）
