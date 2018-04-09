@@ -166,6 +166,5 @@ null和undefined有最大的相似性。
   不过相似归相似，还是有区别的，就是和数字运算时，10 + null结果为：10；10 + undefined结果为：NaN。
   ```  
   
-
 1. 任何数据类型和undefined运算都是NaN;
 2. 任何值和null运算，null可看做0运算。
