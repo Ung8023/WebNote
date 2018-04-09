@@ -102,3 +102,13 @@ console.log(Boolean(undefined)); //false
 
 #### 通过 !!变量
 
+```js
+console.log(!!(12)); //true
+console.log(!!(-1)); //true
+console.log(!!(0)); //false
+console.log(!!(12.23)); //true
+console.log(!!("")); //false
+console.log(!!("123")); // true
+console.log(!!(NaN)); //false
+console.log(!!(undefined)); //false
+```
