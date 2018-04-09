@@ -157,3 +157,4 @@ false、0 、“”、undefined 、null为false
 
 if判断时会把（）内的值强行转换成boolean类型进行判断。
 
+##### undefined和null
