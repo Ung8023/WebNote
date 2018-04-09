@@ -17,7 +17,7 @@ console.log(typeof (b + ""));
 console.log(typeof (c + ""));
 ```
 
-#### 通过String
+#### 通过String()
 
 ```js
 console.log(typeof (String(a)));
