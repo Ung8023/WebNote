@@ -26,5 +26,9 @@ var  arr  =  new Array(参数);
 ```js
 数组的长度 = 数组名.length;
 
-
+var arr = [1, 2, 3,  "5"];
+var len = arr.length;
 ```
+
+##### 修改长度
+
