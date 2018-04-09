@@ -1,7 +1,7 @@
 ### 几种转换
-1. 转成字符串
-2. 转成数值
-3. 转成布尔
+1. 简单类型转成字符串
+2. 简单类型转成数值
+3. 简单类型转成布尔
 
 ### 简单类型转字符串
 #### 通过连字符
@@ -33,3 +33,5 @@ console.log(typeof (a.toString()));
 console.log(typeof (b.toString()));
 console.log(typeof (c.toString()));
 ```
+
+### 简单类型转Number
