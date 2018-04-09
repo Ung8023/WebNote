@@ -56,4 +56,7 @@ console.log(Number(true)); //1
 ```
 
 #### parseInt与parseFloat
+##### 空串
+空字符串parseInt()和parseFloat()返回NaN，Number("")返回0;
 
+##### parseInt(变量)
