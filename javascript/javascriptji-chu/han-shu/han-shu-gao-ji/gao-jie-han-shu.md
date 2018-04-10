@@ -35,3 +35,13 @@ function addOne(x) {
 var anies = arr.map(addOne);
 console.log(anies);
 ```
+
+### reduce
+Array的`reduce()`把一个函数作用在这个Array的`[x1, x2, x3...]`上，这个函数必须接收两个参数，`reduce()`把结果继续和序列的下一个元素做累积计算
+
+```js
+[x1, x2, x3, x4].reduce(f);
+等价于：
+f(f(f(x1, x3), x3), x4);
+```
+
