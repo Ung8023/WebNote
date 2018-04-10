@@ -26,5 +26,12 @@ map方法定义在Array中，可以接受函数作为参数
 ```js
 如果想把数组里面所有的数加1
 
+var arr = [1, 2, 3, 4, 5, 6, 7];
 
+function addOne(x) {
+    return x + 1;
+}
+
+var anies = arr.map(addOne);
+console.log(anies);
 ```
