@@ -26,6 +26,7 @@ btn.onclick = function () {
 ```
 
 ### 函数是一种类型
+
 ```js
 function fun() {
     console.log("fun");
@@ -37,4 +38,18 @@ function fun1() {
 
 console.log(typeof fun); //function
 console.log(typeof fun1); //function
+```
+
+### 函数作为参数传递
+
+```js
+function add(c) {
+    console.log(c);
+}
+
+function log(a) {
+    a(1);
+}
+
+log(add);
 ```
