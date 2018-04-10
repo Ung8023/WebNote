@@ -68,3 +68,20 @@ var arr2 = arr.filter(function(x) {
 })
 console.log(arr2);
 ```
+
+### sort 
+Array默认的sort排序方法有时会不尽人意，
+
+1. 字符串根据ASCII码进行排序
+2. sort()方法默认把所有元素先转换为String再排序
+
+```js
+// 看上去正常的结果:
+['Google', 'Apple', 'Microsoft'].sort(); // ['Apple', 'Google', 'Microsoft'];
+
+// apple排在了最后:
+['Google', 'apple', 'Microsoft'].sort(); // ['Google', 'Microsoft", 'apple']
+
+// 无法理解的结果:
+[10, 20, 1, 2].sort(); // [1, 10, 2, 20]
+```
