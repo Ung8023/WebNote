@@ -49,5 +49,18 @@ f(f(f(x1, x3), x3), x4);
 ```js
 var arr = [1, 2, 3, 4, 5]
 var sum = arr.reduce((x1, x2) => x1 + x2);
-console.log(sum)
+console.log(sum);
+```
+
+### filter
+filter也是一个常用的操作，它用于把Array的某些元素过滤掉，然后返回剩下的符合条件的元素。
+
+filter()把传入的函数依次作用于每个元素，然后根据返回值是true还是false决定保留还是丢弃该元素。
+
+```js
+将数组中的偶数筛选出来
+
+var arr = [1, 2, 3, 4, 5, 6, 7];
+var arr2 = arr.filter(x => x % 2 == 0);
+console.log(arr2);
 ```
