@@ -166,12 +166,34 @@ arr.join('-=-'); //"1-=-2-=-3-=-4-=-5"
 ```
 
 ### 遍历数组
-#### for循环遍历1
+#### for循环遍历
 
 ```js
 var arr = [1, 2, 3, 4, 5, 6];
 
 for (var i=0; i<arr.length; i++) {
     console.log(arr[i]);
+}
+```
+
+#### forEach
+ES5.1引入
+
+```js
+var arr = [1, 2, 3, 4, 5, 6];
+
+arr.forEach(function (element) {
+    console.log(element);
+});
+```
+
+#### for ... of 
+ES6引入的新的语法
+
+```js
+var arr = [1, 2, 3, 4, 5, 6];
+
+for (var a of arr) {
+    console.log(a);
 }
 ```
