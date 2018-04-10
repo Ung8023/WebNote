@@ -25,3 +25,16 @@ btn.onclick = function () {
 }
 ```
 
+### 函数是一种类型
+```js
+function fun() {
+    console.log("fun");
+}
+
+function fun1() {
+    console.log("fun");
+}
+
+console.log(typeof fun); //function
+console.log(typeof fun1); //function
+```
