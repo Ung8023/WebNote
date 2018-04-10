@@ -58,7 +58,7 @@ function fun() {
 fun();
 ```
 
-#### 通过函数直接量声明
+#### 通过函数表达式声明
 
 ```js
 var fun = function() {
