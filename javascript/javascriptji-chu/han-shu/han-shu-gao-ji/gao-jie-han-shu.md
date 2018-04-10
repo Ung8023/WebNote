@@ -4,11 +4,17 @@ JavaScript的函数其实都指向某个变量。既然变量可以指向函数�
 #### 最简单的高阶函数
 
 ```js
-function to(x, y) {
-    return 
+function toInt(x) {
+    if(x < 0) {
+        return -x;
+    }else {
+        return x;
+    }
 }
 
 function add(x, y, f) {
     return f(x) + f(y);
 }
+
+add(-2, 5, toInt); // 7
 ```
