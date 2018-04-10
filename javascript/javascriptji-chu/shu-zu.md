@@ -185,6 +185,13 @@ var arr = [1, 2, 3, 4, 5, 6];
 arr.forEach(function (element) {
     console.log(element);
 });
+
+//带索引遍历
+var arr = [1, 2, 3, 4, 5, 6];
+
+arr.forEach(function (element, index, array) {
+    console.log(element + ", index = " + index)
+});
 ```
 
 #### for ... of 
