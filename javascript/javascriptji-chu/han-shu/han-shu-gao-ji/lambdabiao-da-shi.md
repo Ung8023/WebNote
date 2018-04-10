@@ -11,4 +11,8 @@
 
 
 (x, y) => x + y;
+//相当于
+function(x, y) {
+    return x + y;
+}
 ```
