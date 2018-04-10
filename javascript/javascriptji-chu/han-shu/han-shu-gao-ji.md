@@ -58,5 +58,12 @@ log(add);
 就是函数自己调用自己，但必须有跳出条件，不然会出现死循环。
 
 ```js
+function show(num, target) {
+    console.log(num);
+    if (num < target) {
+        show(num +1, target);
+    }
+}
 
+show(1, 100);
 ```
