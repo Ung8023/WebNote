@@ -149,3 +149,19 @@ console.log(arr4); //["a", "f", "i", "j", "d", "e"]
 #### contact(连接)
 `contact`用于将当前的`array`和另一个`array`连接起来,返回一个新数组。
 
+```js
+var arr5 = [1, 2, 3];
+var arr6 = [4, 5, 6];
+
+var arr7 = arr5.concat(arr6); // arr7 = [1, 2, 3, 4, 5, 6];
+var arr8 = arr5.concat(1, 2, 3, [4, 5, 6]); // arr8 = [1, 2, 3, 1, 2, 3, 4, 5, 6]
+```
+
+#### join(使用指定字符串连接元素)
+把当前`Array`的每个元素都用指定的字符串连接。如果Array的元素不是字符串，将自动转为字符串。
+
+```js
+var arr = [1, 2, 3, 4, 5];
+arr.join('==');
+```
+
