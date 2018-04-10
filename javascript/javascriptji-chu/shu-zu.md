@@ -145,3 +145,6 @@ console.log(arr4); //["a", "f", "d", "e"]
 arr4.splice(2, 0, 'i', 'j');
 console.log(arr4); //["a", "f", "i", "j", "d", "e"]
 ```
+
+#### contact(连接)
+`contact`用于将当前的`array`和另一个`array`连接起来,返回一个新数组。
