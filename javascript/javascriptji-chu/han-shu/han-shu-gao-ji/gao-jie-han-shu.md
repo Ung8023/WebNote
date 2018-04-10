@@ -62,5 +62,9 @@ filter()把传入的函数依次作用于每个元素，然后根据返回值是
 
 var arr = [1, 2, 3, 4, 5, 6, 7];
 var arr2 = arr.filter(x => x % 2 == 0);
+//或者
+var arr2 = arr.filter(function(x) {
+    return x %2 == 0; 
+})
 console.log(arr2);
 ```
