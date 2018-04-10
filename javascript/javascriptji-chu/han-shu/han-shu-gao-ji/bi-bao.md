@@ -16,6 +16,12 @@ function getAdd2() {
         console.log("add2");
     }
 }
-f = getAdd2(); //调用getAdd2()；返回的是一个函数，并不会执行里面的语句
+f = getAdd2(); //调用getAdd2()；返回的是一个函数，并不会执行里面的语句；
 f();
+```
+
+### 闭包
+
+```js
+
 ```
