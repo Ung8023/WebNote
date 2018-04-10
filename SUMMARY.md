@@ -49,5 +49,5 @@
   * [函数](javascript/javascriptji-chu/han-shu.md)
     * [变量作用域](javascript/javascriptji-chu/han-shu/bian-liang-zuo-yong-yu.md)
   * [函数高级](javascript/javascriptji-chu/han-shu/han-shu-gao-ji.md)
-    * 闭包
+    * [闭包](javascript/javascriptji-chu/han-shu/han-shu-gao-ji/bi-bao.md)
 
