@@ -85,3 +85,27 @@ Array默认的sort排序方法有时会不尽人意，
 // 无法理解的结果:
 [10, 20, 1, 2].sort(); // [1, 10, 2, 20]
 ```
+
+#### 重写对字符串的排序
+
+```js
+var strSort = ['Google', 'apple', 'Microsoft'].sort(function(s1, s2) {
+    var x1 = s1.toLowerCase();
+    var x2 = s2.toLowerCase();
+    if (x1 < x2) {
+        return -1;
+    }
+    if (x1 > x2) {
+        return 1;
+    }
+    return 0;
+});
+console.log(strSort.toString());
+```
+
+#### 重写对数字的排序
+
+```js
+var strSort = [2, 5, 7, 12, 13].sort((x1, x2) => x1 - x2);
+console.log(strSort.toString());
+```
