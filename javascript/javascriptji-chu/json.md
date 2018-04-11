@@ -27,3 +27,13 @@ var json = {"a": 1, "b": 2, "c":3, "d":4}
 ```
 
 ### 序列化
+```js
+var car = {
+    name: 'aodi',
+    speed: 240,
+    address: ['guangzhou', 'beijing', 'shanghai']
+}
+
+var s = JSON.stringify(car);
+console.log(s); //{"name":"aodi","speed":240,"address":["guangzhou","beijing","shanghai"]}
+```
