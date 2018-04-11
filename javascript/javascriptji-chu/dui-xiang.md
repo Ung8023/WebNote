@@ -33,9 +33,12 @@ car['band']; //'aodi'
 car['pro-address']; // 'guangzhou' 
 //访问不存在的属性
 car.name; // undefined
-
 ```
 
+#### 属性操作
 
-
+```js
+新增一个属性
+car.pro_date = '2018';
+```
 
