@@ -52,4 +52,6 @@
     * [高阶函数](javascript/javascriptji-chu/han-shu/han-shu-gao-ji/gao-jie-han-shu.md)
     * [闭包](javascript/javascriptji-chu/han-shu/han-shu-gao-ji/bi-bao.md)
     * [Lambda表达式](javascript/javascriptji-chu/han-shu/han-shu-gao-ji/lambdabiao-da-shi.md)
+  * 面向对象编程
+    * 对象
 
