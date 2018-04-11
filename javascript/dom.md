@@ -221,7 +221,7 @@ innerText不返回隐藏元素的文本，而textContent返回所有文本。另
 ```
 
 ##### 修改css属性
-```js
+```html
 
 ```
 
