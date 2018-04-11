@@ -96,17 +96,7 @@ function Worker(name, age, workAge) {
     this.workAge = workAge;
 }
 
-function F() {
-
-}
-
-//把F的原型指向Person
-F.prototype = Person.prototype;
-//把Worker的原型指向一个新的F对象.F对象的原型正好指向Person.prototype
-Worker.prototype = new F();
-
-// 把PrimaryStudent原型的构造函数修复为PrimaryStudent:
-Worker.prototype.constructor = Worker;
+inHerits(Worker, Person);
 
 var worker = new Worker("张三", 25, 10);
 worker.say();
