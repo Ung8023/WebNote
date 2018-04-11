@@ -104,8 +104,27 @@ parent.style.backgroundColor = "red";
 ##### 单个子节点
 1. firstChild：调用者是父节点。IE678中指第一个子元素节点（标签）。在火狐谷歌IE9+以后都指的是第一个节点（包括空文档和换行节点）。
 2. firstElementChild:在火狐谷歌IE9都指的第一个元素节点。
+
+ ```js
+ 第一个子节点=父节点.firstElementChild || 父节点.firstChild
+ ```
+ 
 3. lastChild:调用者是父节点。IE678中指最后一个子元素节点（标签）。在火狐谷歌IE9+以后都指的是最后一个节点（包括空文档和换行节点）
 4. astElementChild：在火狐谷歌IE9都指的最后一个元素节点
+
+ ```js
+ 第一个子节点=父节点.lastElementChild|| 父节点.lastChild
+ ```
+ 
+##### 所有子节点
+###### childNodes
+是标准属性，它返回指定元素的子元素集合，包括HTML节点，所有属性，文本节点（火狐 谷歌等高本版会把换行也看做是子节点）
+
+1. nodeType == 1  ==> 元素节点
+2. nodeType == 2  ==> 属性节点
+3. nodeType == 3  ==> 文本节点
+
+
 ### 对Dom节点的操作
 
 | 操作 | 解释 |
