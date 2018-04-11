@@ -15,7 +15,6 @@ var Person = {
 ### 创建一个具体的person
 在编写`JavaScript`代码时，不要直接用`obj.__proto__`去改变一个对象的原型，并且，低版本的IE也无法使用`__proto__`  
 
-
 ```js
 var Person = {
     name: 'person',
@@ -34,4 +33,26 @@ p1.__proto__ = Person;
 console.log(p1.name);
 console.log(p1.age);
 p1.say();
+```
+
+### 创建一个具体的Person
+
+```js
+var Person = {
+    name: 'person',
+    age: 0,
+    say: function() {
+        console.log('say:' + this.age);
+    }
+}
+
+var p1 = {
+    name: 'p1',
+    age :20
+}
+
+var pa = Object.create(Person);
+pa.name = 'pa';
+pa.age = 20;
+pa.say();
 ```
