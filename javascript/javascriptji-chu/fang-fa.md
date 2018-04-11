@@ -23,3 +23,19 @@ car.run();
 
 ### this
 在一个方法内部，`this`是一个特殊变量，它始终指向当前对象，也就是`car`这个变量。
+
+```js
+function getSpeed() {
+    console.log(this.speed);
+    return this.speed;
+}
+
+var car = {
+    speed: 240,
+    band: 'aodi',
+    run: getSpeed
+}
+
+car.run(); // 240
+getSpeed(); // undefined
+```
