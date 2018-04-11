@@ -26,7 +26,7 @@ Document是文档对象模型的一部分
 语法：
 document.getElementById("id值");
 
-document.getElementById("");
+document.getElementById("myDiv");
 ``` 
 
 ### DOM访问关系
