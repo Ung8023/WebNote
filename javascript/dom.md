@@ -18,8 +18,16 @@ Document是文档对象模型的一部分
 4. 标签的属性是属性节点。（属性）
 
 #### DOM节点获取
+
 操作节点，必须首先找到该元素。
-##### 
+
+##### 通过id找到元素
+```
+语法：
+document.getElementById("id值");
+
+document.getElementById("");
+``` 
 
 ### DOM访问关系
 节点的访问关系，是以属性的方式存在的。  
