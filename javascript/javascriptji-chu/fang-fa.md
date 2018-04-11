@@ -46,3 +46,6 @@ getSpeed(); // undefined
 3. new People();   People中的this代指被创建的对象实例。
 
 ##### this指向错误
+```js
+
+```
