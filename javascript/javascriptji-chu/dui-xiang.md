@@ -40,6 +40,10 @@ car.name; // undefined
 ```js
 新增一个属性
 car.pro_date = 'xxxx';
-console.log(car.pro_date);
+console.log(car.pro_date); //xxxx
+
+删除一个属性
+delete car.speed;
+console.log(car.speed); //undefined
 ```
 
