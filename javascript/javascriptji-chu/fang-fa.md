@@ -17,4 +17,6 @@ var car {
         console.log("车跑了");
     }
 }
+
+car.run();
 ```
