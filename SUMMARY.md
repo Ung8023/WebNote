@@ -57,4 +57,5 @@
     * [方法](javascript/javascriptji-chu/fang-fa.md)
     * [创建对象](javascript/javascriptji-chu/chuang-jian-dui-xiang.md)
     * [原型继承](javascript/javascriptji-chu/yuan-xing-ji-cheng.md)
+    * [class继承](javascript/javascriptji-chu/classji-cheng.md)
 
