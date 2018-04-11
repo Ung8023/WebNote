@@ -56,3 +56,11 @@ delete car.speed;
 console.log(car.speed); //undefined
 ```
 
+##### 判断对象时候有某个属性
+'属性名' in 对象
+
+```js
+'speed' in car; // true;
+'name' in car; // false
+```
+
