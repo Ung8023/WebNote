@@ -59,4 +59,5 @@
     * [原型继承](javascript/javascriptji-chu/yuan-xing-ji-cheng.md)
     * [class继承](javascript/javascriptji-chu/classji-cheng.md)
     * [Json](javascript/javascriptji-chu/json.md)
+* [DOM](javascript/dom.md)
 
