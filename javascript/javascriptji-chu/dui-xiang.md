@@ -16,6 +16,7 @@ var 对象 = {
 var car = {
     band: 'aodi',
     speed: 240,
+    //属性名必须为一个有效的变量名，如果属性名包含特殊字符，就必须用''括起来
     'pro-address': 'guangzhou'
 }
 ```
