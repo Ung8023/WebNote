@@ -27,3 +27,10 @@ function Person(name, age) {
 var p1 = new Person("张三", 20);
 p1.say();
 ```
+
+#### 通过new调用
+在JavaScript中，可以用关键字`new`来调用这个函数，并返回一个对象
+
+```js
+
+```
