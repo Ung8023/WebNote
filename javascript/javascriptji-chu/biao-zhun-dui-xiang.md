@@ -21,4 +21,6 @@ console.log(typeof (typeof 1)); //string
 var num = new Number(123);
 var bo = new Boolean(true);
 var str = new String('str');
+
+
 ```
