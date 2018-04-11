@@ -204,3 +204,9 @@ for (var a of arr) {
     console.log(a);
 }
 ```
+
+### 清空数组
+```js
+var array = [1, 2, 6,3 ,4 ];
+array.length = 0;
+```
