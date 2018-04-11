@@ -53,4 +53,4 @@ console.log(str === 'str'); //false
 
 * `null`和`undefined`没有toString方法。
 
-* 数字的toString，`123..toString();` 或者 `(123).toString()`
+* 数字的toString，`123..toString();` 或者 `(123).toString();`
