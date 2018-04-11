@@ -63,8 +63,17 @@ document.getElementsByClassName("myStyle");
 #### 父节点
 调用者就是节点。一个节点只有一个父节点。调用方式就是节点.parentNode
 
-```js
+```html
+<div>
+    <p id="myPara">这是一个段落</p>
+</div>
 
+<script>
+
+var para = document.getElementById("myPara");
+var parent = para.parentNode;
+parent.style.backgroundColor = "red";
+</script>
 ```
 
 ### 对Dom节点的操作
