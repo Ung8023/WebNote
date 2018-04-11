@@ -39,3 +39,8 @@ var car = {
 car.run(); // 240
 getSpeed(); // undefined
 ```
+
+#### this指向
+1. this只出现在函数中。
+2. 谁调用函数，this就指的是谁。
+3. new People();   People中的this代指被创建的对象实例。
