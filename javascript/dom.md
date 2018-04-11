@@ -222,7 +222,16 @@ innerText不返回隐藏元素的文本，而textContent返回所有文本。另
 
 ##### 修改css属性
 ```html
+<div>
+    <p id="myPara">这是一个段落</p>
+</div>
 
+<script>
+
+var para = document.getElementById("myPara");
+var parent = para.parentNode;
+parent.style.backgroundColor = "red";
+</script>
 ```
 
 #### 节点属性
