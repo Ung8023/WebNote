@@ -52,4 +52,8 @@ console.log(s);
 ]
 }
 
+
+//第二个参数指定输出哪些参数
+var s = JSON.stringify(car, ['speed', 'name'], ' ');
+console.log(s);
 ```
