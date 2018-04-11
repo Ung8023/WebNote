@@ -64,3 +64,10 @@ console.log(car.speed); //undefined
 'name' in car; // false
 ```
 
+##### 判断一个属性是否是对象自身拥有的
+对象.hasOwnProperty('属性名');
+
+```js
+car.hasOwnProperty('speed'); // true
+car.hasOwnProperty('toString');
+```
