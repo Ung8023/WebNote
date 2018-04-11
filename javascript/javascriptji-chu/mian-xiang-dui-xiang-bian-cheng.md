@@ -15,9 +15,21 @@ var Person = {
 ### 创建一个具体的person
 
 ```js
+var Person = {
+    name: 'person',
+    age: 0,
+    say: function() {
+        console.log('say');
+    }
+}
+
 var p1 = {
     name: 'p1',
-    age: 20
+    age :20
 }
-p1.__proto__ = Persion;
+
+p1.__proto__ = Person;
+console.log(p1.name);
+console.log(p1.age);
+p1.say();
 ```
