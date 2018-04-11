@@ -86,7 +86,9 @@ parent.style.backgroundColor = "red";
 
 总结：在IE678中用nextSibling，在火狐谷歌IE9+以后用nextElementSibling
 
-
+```js
+下一个兄弟节点=节点.nextElementSibling || 节点.nextSibling
+```
 ### 对Dom节点的操作
 
 | 操作 | 解释 |
