@@ -58,4 +58,5 @@
     * [创建对象](javascript/javascriptji-chu/chuang-jian-dui-xiang.md)
     * [原型继承](javascript/javascriptji-chu/yuan-xing-ji-cheng.md)
     * [class继承](javascript/javascriptji-chu/classji-cheng.md)
+    * [Json](javascript/javascriptji-chu/json.md)
 
