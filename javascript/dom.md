@@ -63,6 +63,10 @@ document.getElementsByClassName("myStyle");
 #### 父节点
 调用者就是节点。一个节点只有一个父节点。调用方式就是节点.parentNode
 
+```js
+
+```
+
 ### 对Dom节点的操作
 
 | 操作 | 解释 |
