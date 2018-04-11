@@ -12,6 +12,11 @@ function Person(name, age) {
 }
 
 function Worker(name, age, workAge) {
+    //调用Person构造函数，绑定this
     Person.call(this, name, age);
+    this.workAge = workAge;
 }
+
+var worker = new Worker("张三", 20, 2);
+console.log(worker instanceof Person); //false
 ```
