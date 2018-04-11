@@ -34,6 +34,7 @@ document.getElementById("myDiv");
 语法：
 document.getElementByTagName("标签名");
 
+//找到所有的div
 document.getElementById("div");
 ``` 
 
