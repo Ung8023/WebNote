@@ -54,4 +54,5 @@
     * [Lambda表达式](javascript/javascriptji-chu/han-shu/han-shu-gao-ji/lambdabiao-da-shi.md)
   * 面向对象编程
     * [对象](javascript/javascriptji-chu/dui-xiang.md)
+    * [方法](javascript/javascriptji-chu/fang-fa.md)
 
