@@ -6,3 +6,9 @@ var obj = {a: 100};
 
 var json = {"a": 100};
 ```
+
+### json组成
+
+```js
+var json = {"a": 1, "b": 2, "c":3, "d":4}
+```
