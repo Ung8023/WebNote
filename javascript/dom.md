@@ -41,9 +41,9 @@ document.getElementsById("div");
 ##### 通过类名获取
 ```js
 语法：
-document.getElementsByClassName("标签名")
+document.getElementsByClassName("类名")
 
-document.getElementsByClassName("a");
+document.getElementsByClassName("myStyle");
 ```
 
 
