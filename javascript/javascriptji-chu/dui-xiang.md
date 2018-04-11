@@ -40,5 +40,6 @@ car.name; // undefined
 ```js
 新增一个属性
 car.pro_date = 'xxxx';
+console.log(car.pro_date);
 ```
 
