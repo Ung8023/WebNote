@@ -37,12 +37,19 @@ car.name; // undefined
 
 #### 属性操作
 
+##### 新增一个属性
 ```js
 新增一个属性
+
 car.pro_date = 'xxxx';
 console.log(car.pro_date); //xxxx
+```
 
+##### 删除一个属性
+
+```js
 删除一个属性
+delete 对象.属性名
 delete car.speed;
 console.log(car.speed); //undefined
 ```
