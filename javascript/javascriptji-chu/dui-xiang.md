@@ -57,7 +57,7 @@ console.log(car.speed); //undefined
 ```
 
 ##### 判断对象时候有某个属性
-'属性名' in 对象
+'属性名' in 对象，这个属性不一定是xiaoming的，它可能是xiaoming继承得到的
 
 ```js
 'speed' in car; // true;
