@@ -14,10 +14,13 @@ var 对象 = {
 ........
 
 var car = {
-    band: "aodi",
+    band: 'aodi',
     speed: 240,
+    'pro-address': 'guangzhou'
 }
 ```
 
 #### 属性使用
 通过`对象.属性`来获取属性对应的值
+
+
