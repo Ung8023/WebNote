@@ -20,7 +20,10 @@ function Person(name, age) {
     this.name = name;
     this.age = age;
     this.say = function() {
-        console.log("My name is: " + this.name + "age is : " + this.age);
+        console.log("My name is: " + this.name + ", age is : " + this.age);
     }
 }
+
+var p1 = new Person("张三", 20);
+p1.say();
 ```
