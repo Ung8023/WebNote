@@ -100,5 +100,5 @@ var car = {
     run: getSpeed
 }
 
-
+getSpeed.apply(car, []);
 ```
