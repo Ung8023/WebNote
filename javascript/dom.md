@@ -29,7 +29,11 @@ document.getElementById("id值");
 document.getElementById("myDiv");
 ``` 
 
-##### 通过标签名
+##### 通过标签名 
+ 返回的是节点数组
+
+
+ 
 ```js
 语法：
 document.getElementsByTagName("标签名");
