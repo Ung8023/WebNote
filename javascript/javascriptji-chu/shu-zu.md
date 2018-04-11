@@ -208,5 +208,7 @@ for (var a of arr) {
 ### 清空数组
 ```js
 var array = [1, 2, 6,3 ,4 ];
+array.splice(0, array.length);
 array.length = 0;
+array = [];
 ```
