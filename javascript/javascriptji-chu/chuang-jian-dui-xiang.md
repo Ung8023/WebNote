@@ -38,5 +38,8 @@ p1.say();
 用`new Person()`创建的对象还从原型上获得了一个`constructor`属性，它指向函数`Person`本身
 
 ```js
-
+console.log(p1.constructor === Person.prototype.constructor);  //true
+console.log(p1.constructor === Person);  //true
+console.log(Object.getPrototypeOf(p1) === Person.prototype);  //true
+console.log(p1 instanceof Person);  //true
 ```
