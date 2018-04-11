@@ -60,5 +60,6 @@
     * [class继承](javascript/javascriptji-chu/classji-cheng.md)
   * [标准对象](javascript/javascriptji-chu/biao-zhun-dui-xiang.md)
     * [Json](javascript/javascriptji-chu/json.md)
+    * [Date](javascript/javascriptji-chu/date.md)
 * [DOM](javascript/dom.md)
 
