@@ -13,6 +13,8 @@ var Person = {
 ```
 
 ### 创建一个具体的person
+在编写JavaScript代码时，不要直接用obj.__proto__去改变一个对象的原型，并且，低版本的IE也无法使用__proto__
+
 
 ```js
 var Person = {
