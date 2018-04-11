@@ -33,3 +33,6 @@ function Person(name, age) {
 var p1 = new Person("张三", 20);
 p1.say();
 ```
+
+##### constructor
+用`new Person()`创建的对象还从原型上获得了一个`constructor`属性，它指向函数`Person`本身
