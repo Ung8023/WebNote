@@ -133,7 +133,11 @@ parent.style.backgroundColor = "red";
 
 但它只返回HTML节点，甚至不返回文本节点，虽然不是标准的DOM属性，但它和innerHTML方法一样，得到了几乎所有浏览器的支持
 
-children在IE6/7/8中包含注释节点
+children在IE6/7/8中包含注释节点，在IE678中，注释节点不要写在里面
+
+```js
+子节点数组 = 父节点.children;   用的最多.
+```
 
 
 
