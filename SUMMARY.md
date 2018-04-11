@@ -53,5 +53,5 @@
     * [闭包](javascript/javascriptji-chu/han-shu/han-shu-gao-ji/bi-bao.md)
     * [Lambda表达式](javascript/javascriptji-chu/han-shu/han-shu-gao-ji/lambdabiao-da-shi.md)
   * 面向对象编程
-    * 对象
+    * [对象](javascript/javascriptji-chu/dui-xiang.md)
 
