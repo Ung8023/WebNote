@@ -3,5 +3,21 @@ JavaScript不区分类和实例的概念，而是通过原型（prototype）来�
 ### 定义一个Object
 
 ```js
+var Person = {
+    name: 'person',
+    age: 0,
+    say: function() {
+        console.log('say');
+    }
+}
+```
 
+### 创建一个具体的person
+
+```js
+var p1 = {
+    name: 'p1',
+    age: 20
+}
+p1.__proto__ = Persion;
 ```
