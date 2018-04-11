@@ -67,5 +67,18 @@ function convert(key, value) {
 var s = JSON.stringify(car, convert, ' ');
 console.log(s);
 
+//精确控制如何序列化,添加toJSON()方法
+var car = {
+    name: 'aodi',
+    speed: 240,
+    address: ['guangzhou', 'beijing', 'shanghai'],
+    toJSON: function() {
+        return {
+            'Name': this.name,
+            'speed': this.speed
+        }
+    }
+}
+
 
 ```
