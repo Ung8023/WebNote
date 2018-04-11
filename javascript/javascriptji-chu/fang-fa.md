@@ -103,3 +103,7 @@ var car = {
 
 getSpeed.apply(car, []);
 ```
+
+### call
+与apply类似，但是call不传入数组，而是把所有参数挨个传入
+
