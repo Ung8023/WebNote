@@ -39,5 +39,18 @@ class Person {
     }
 }
 
+class Worker extends Person {
+    constructor(name, workAge) {
+        super(name);
+        this.workAge = workAge;
+    }
+
+    say() {
+        console.log("My name is " + this.name + ", I have worked " + this.workAge + "years");
+    }
+}
+
+var wo = new Worker("张三", 2);
+wo.say();
 
 ```
