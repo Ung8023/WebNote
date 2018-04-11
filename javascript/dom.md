@@ -124,6 +124,12 @@ parent.style.backgroundColor = "red";
 2. nodeType == 2  ==> 属性节点
 3. nodeType == 3  ==> 文本节点
 
+```js
+子节点数组 = 父节点.childNodes; //获取所有子节点
+```
+
+###### children
+非标准属性，它返回指定元素的子元素集合
 
 ### 对Dom节点的操作
 
