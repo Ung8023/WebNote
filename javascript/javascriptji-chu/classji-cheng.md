@@ -24,3 +24,20 @@ class Person {
 }
 
 ```
+
+### class继承
+
+```js
+
+class Person {
+    constructor(name) {
+        this.name = name;
+    }
+
+    say() {
+        console.log("My name is " + this.name);
+    }
+}
+
+
+```
