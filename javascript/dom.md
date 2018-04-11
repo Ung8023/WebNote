@@ -32,10 +32,10 @@ document.getElementById("myDiv");
 ##### 通过标签名
 ```js
 语法：
-document.getElementByTagName("标签名");
+document.getElementsByTagName("标签名");
 
 //找到所有的div
-document.getElementById("div");
+document.getElementsById("div");
 ``` 
 
 ##### 通过类名获取
