@@ -42,7 +42,7 @@ document.getElementsById("div");
 ```js
 语法：
 document.getElementsByClassName("类名")
-
+//获取使用了class名为myStyle的元素
 document.getElementsByClassName("myStyle");
 ```
 
