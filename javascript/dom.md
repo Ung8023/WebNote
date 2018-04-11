@@ -33,7 +33,6 @@ document.getElementById("myDiv");
 ```js
 语法：
 document.getElementsByTagName("标签名");
-
 //找到所有的div
 document.getElementsById("div");
 ``` 
