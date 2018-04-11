@@ -31,6 +31,11 @@ car.band;  //'aodi'
 car['band']; //'aodi'
 //不是一个有效的变量，就需要用''括起来。访问这个属性也无法使用.操作符，必须用['xxx']来访问
 car['pro-address']; // 'guangzhou' 
+//访问不存在的属性
+car.name; // undefined
+
 ```
+
+
 
 
