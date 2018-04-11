@@ -38,6 +38,13 @@ document.getElementByTagName("标签名");
 document.getElementById("div");
 ``` 
 
+##### 通过类名获取
+```js
+语法：
+document.getElementsByClassName("标签名")
+
+document.getElementsByClassName("a");
+```
 
 
 ### DOM访问关系
