@@ -1,2 +1,7 @@
 JavaScript不区分类和实例的概念，而是通过原型（prototype）来实现面向对象编程。
 
+### 定义一个Object
+
+```js
+
+```
