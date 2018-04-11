@@ -62,7 +62,9 @@ var car = {
     speed: 240,
     band: 'aodi',
     run: function () {
-        
+        function getSpeed() {
+            return this.speed;
+        }
     }
 }
 
