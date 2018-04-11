@@ -2,5 +2,22 @@
 
 ### 新旧方式对比
 ```js
+function Person(name) {
+    this.name = name;
+}
+
+Person.prototype.say = function () {
+    console.log("My name is " + this.name);
+}
+
+class Person {
+    constructor(name) {
+        this.name = name;
+    }
+
+    say() {
+        console.log("My name is " + this.name);
+    }
+}
 
 ```
