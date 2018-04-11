@@ -65,6 +65,7 @@ var car = {
         function getSpeed() {
             return this.speed;
         }
+        return getSpeed();
     }
 }
 
