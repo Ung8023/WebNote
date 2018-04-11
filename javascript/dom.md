@@ -201,7 +201,9 @@ innerHTML属性，不但可以修改一个DOM节点的文本内容，还可以�
 ```
 
 ###### 修改innerText或textContent
-可以自动对字符串进行HTML编码，保证无法设置任何HTML标签
+可以自动对字符串进行HTML编码，保证无法设置任何HTML标签  
+
+innerText不返回隐藏元素的文本，而textContent返回所有文本。另外注意IE<9不支持textContent
 
 ```html
 <div>
