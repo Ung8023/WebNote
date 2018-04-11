@@ -30,6 +30,13 @@ document.getElementById("myDiv");
 ``` 
 
 ##### 通过标签名
+```js
+语法：
+document.getElementByTagName("标签名");
+
+document.getElementById("div");
+``` 
+
 
 
 ### DOM访问关系
