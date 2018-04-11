@@ -200,6 +200,8 @@ innerHTML属性，不但可以修改一个DOM节点的文本内容，还可以�
 </script>
 ```
 
+###### 修改innerText或textContent
+
 
 #### 节点属性
 注意：IE6、7不支持。调用者：节点,有参数,没有返回值。
