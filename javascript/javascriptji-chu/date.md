@@ -11,5 +11,11 @@ nowLocal.getMinutes(); // 22, 分钟
 nowLocal.getSeconds(); // 30, 秒
 nowLocal.getMilliseconds(); // 875, 毫秒数
 nowLocal.getTime(); // 1523431441290, 以number形式表示的时间戳
+```
 
+### 创建一个指定日期的Date对象
+
+```js
+var aDate = new Date(2020, 11, 31, 23, 59,59);
+aDate; //Thu Dec 31 2020 23:59:59 GMT+0800 (CST)
 ```
