@@ -107,3 +107,7 @@ getSpeed.apply(car, []);
 ### call
 与apply类似，但是call不传入数组，而是把所有参数挨个传入
 
+```js
+Math.max.apply(null, [12, 323,4345]);
+Math.max.call(null, 12, 323, 4345);
+```
