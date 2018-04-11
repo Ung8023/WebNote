@@ -7,4 +7,7 @@
 
 数组调用链
 arr ----> Array.prototype ----> Object.prototype ----> null
+
+函数调用链
+foo ----> Function.prototype ----> Object.prototype ----> null
 ```
