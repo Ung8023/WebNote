@@ -55,7 +55,6 @@ document.getElementsByClassName("类名")
 document.getElementsByClassName("myStyle");
 ```
 
-
 ### DOM访问关系
 节点的访问关系，是以属性的方式存在的。  
 
