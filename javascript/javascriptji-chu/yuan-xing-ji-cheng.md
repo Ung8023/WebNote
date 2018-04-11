@@ -11,5 +11,7 @@ function Person(name, age) {
     }
 }
 
-
+function Worker(name, age, workAge) {
+    
+}
 ```
