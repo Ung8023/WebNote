@@ -58,5 +58,12 @@ var f = car.run;
 f(); // 错误，必须通过obj.fun(),调用
 
 
+var car = {
+    speed: 240,
+    band: 'aodi',
+    run: function () {
+        console.log("速度是：" + this.speed);
+    }
+}
 
 ```
