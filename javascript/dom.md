@@ -196,6 +196,7 @@ innerHTML属性，不但可以修改一个DOM节点的文本内容，还可以�
     var parent = para.parentNode;
 
     parent.innerHTML = 'DDDDDDD';
+    parent.innerHTML = '<span style="color: red;"> DDDDDDD</span>';
 </script>
 ```
 
