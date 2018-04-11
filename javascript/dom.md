@@ -22,6 +22,8 @@ Document是文档对象模型的一部分
 操作节点，必须首先找到该元素。
 
 ##### 通过id找到元素
+返回一个元素
+
 ```js
 语法：
 document.getElementById("id值");
@@ -30,9 +32,7 @@ document.getElementById("myDiv");
 ``` 
 
 ##### 通过标签名 
- 返回的是节点数组
-
-
+返回的是节点数组
  
 ```js
 语法：
