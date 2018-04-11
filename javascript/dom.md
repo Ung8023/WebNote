@@ -84,10 +84,20 @@ parent.style.backgroundColor = "red";
 1. nextSibling：调用者是节点。IE678中指下一个元素节点（标签）。在火狐谷歌IE9+以后都指的是下一个节点（包括空文档和换行节点）。
 2. nextElementSibling：在火狐谷歌IE9都指的是下一个元素节点。
 
-总结：在IE678中用nextSibling，在火狐谷歌IE9+以后用nextElementSibling
+总结：**在IE678中用nextSibling，在火狐谷歌IE9+以后用nextElementSibling**
 
 ```js
 下一个兄弟节点=节点.nextElementSibling || 节点.nextSibling
+```
+
+##### 上一个兄弟节点
+1. previousSibling：调用者是节点。IE678中指前一个元素节点（标签）。在火狐谷歌IE9+以后都指的是前一个节点（包括空文档和换行节点）。
+2. previousElementSibling：在火狐谷歌IE9都指的是前一个元素节点。
+
+总结：**在IE678中用previousSibling，在火狐谷歌IE9+以后用previousElementSibling。**
+
+```js
+下一个兄弟节点=节点.previousElementSibling|| 节点.previousSibling
 ```
 ### 对Dom节点的操作
 
