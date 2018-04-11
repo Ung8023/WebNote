@@ -55,5 +55,8 @@ var car = {
     }
 }
 var f = car.run;
-f();
+f(); // 错误，必须通过obj.fun(),调用
+
+
+
 ```
