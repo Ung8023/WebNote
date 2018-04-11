@@ -131,6 +131,12 @@ parent.style.backgroundColor = "red";
 ###### children
 非标准属性，它返回指定元素的子元素集合
 
+但它只返回HTML节点，甚至不返回文本节点，虽然不是标准的DOM属性，但它和innerHTML方法一样，得到了几乎所有浏览器的支持
+
+children在IE6/7/8中包含注释节点
+
+
+
 ### 对Dom节点的操作
 
 | 操作 | 解释 |
