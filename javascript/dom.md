@@ -85,6 +85,8 @@ parent.style.backgroundColor = "red";
 2. nextElementSibling：在火狐谷歌IE9都指的是下一个元素节点。
 
 总结：在IE678中用nextSibling，在火狐谷歌IE9+以后用nextElementSibling
+
+
 ### 对Dom节点的操作
 
 | 操作 | 解释 |
