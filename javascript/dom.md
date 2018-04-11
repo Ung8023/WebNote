@@ -25,7 +25,7 @@ Document是文档对象模型的一部分
 ```js
 语法：
 document.getElementById("id值");
-
+//找到id=myDiv的节点
 document.getElementById("myDiv");
 ``` 
 
