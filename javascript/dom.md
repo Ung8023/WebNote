@@ -22,12 +22,15 @@ Document是文档对象模型的一部分
 操作节点，必须首先找到该元素。
 
 ##### 通过id找到元素
-```
+```js
 语法：
 document.getElementById("id值");
 
 document.getElementById("myDiv");
 ``` 
+
+##### 通过标签名
+
 
 ### DOM访问关系
 节点的访问关系，是以属性的方式存在的。  
