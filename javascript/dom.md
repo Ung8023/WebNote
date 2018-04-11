@@ -227,7 +227,6 @@ innerText不返回隐藏元素的文本，而textContent返回所有文本。另
 </div>
 
 <script>
-
 var para = document.getElementById("myPara");
 var parent = para.parentNode;
 parent.style.backgroundColor = "red";
