@@ -202,6 +202,20 @@ innerHTML属性，不但可以修改一个DOM节点的文本内容，还可以�
 
 ###### 修改innerText或textContent
 
+```html
+<div>
+    <p id="myPara">这是一个段落</p>
+</div>
+
+<script>
+
+    var para = document.getElementById("myPara");
+    var parent = para.parentNode;
+
+    parent.textContent = 'DDDDDDD';
+    parent.textContent = '<span style="color: red;"> DDDDDDD</span>';
+</script>
+```
 
 #### 节点属性
 注意：IE6、7不支持。调用者：节点,有参数,没有返回值。
