@@ -180,3 +180,10 @@ children在IE6/7/8中包含注释节点，在IE678中，注释节点不要写在
 ```js
 新节点=要复制的节点.cloneNode(参数) ; //参数可选复制节点
 ```
+
+#### 节点属性
+注意：IE6、7不支持。调用者：节点。   有参数。   没有返回值。
+
+1. 获取：getAttribute(名称)
+2. 设置：setAttribute(名称, 值)
+3. 删除：removeAttribute(名称)
