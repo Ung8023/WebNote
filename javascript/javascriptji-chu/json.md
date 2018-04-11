@@ -39,6 +39,17 @@ var s = JSON.stringify(car);
 console.log(s); //{"name":"aodi","speed":240,"address":["guangzhou","beijing","shanghai"]}
 
 //使用缩进输出
-var s = JSON.stringify(car, null, '');
+var s = JSON.stringify(car, null, ' ');
+console.log(s);
+
+{
+    "name": "aodi",
+    "speed": 240,
+    "address": [
+    "guangzhou",
+    "beijing",
+    "shanghai"
+]
+}
 
 ```
