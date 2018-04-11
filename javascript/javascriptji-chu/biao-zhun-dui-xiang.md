@@ -14,3 +14,11 @@ console.log(typeof {}); //object
 console.log(typeof (typeof 1)); //string
 ```
 
+### 包装对象
+`js`中`number`、`boolean`、`string`都有包装对象
+
+```js
+var num = new Number(123);
+var bo = new Boolean(true);
+var str = new String('str');
+```
