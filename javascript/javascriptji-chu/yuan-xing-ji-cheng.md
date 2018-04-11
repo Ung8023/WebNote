@@ -75,6 +75,13 @@ console.log(worker instanceof Person);  //true
 #### 封装继承操作
 
 ```js
+function inHerits(Child, Parent) {
+    var F = function () {};
+    F.prototype = Parent.prototype;
+    Child.prototype = new F();
+    Child.prototype.constructor = Child;
+}
+
 function Person(name, age) {
     this.name = name;
     this.age = age;
