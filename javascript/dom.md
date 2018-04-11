@@ -39,6 +39,8 @@ document.getElementsById("div");
 ``` 
 
 ##### 通过类名获取
+通过类名查找 HTML 元素在 IE 5,6,7,8 中无效
+
 ```js
 语法：
 document.getElementsByClassName("类名")
