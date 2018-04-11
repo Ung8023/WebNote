@@ -12,6 +12,7 @@ Person.prototype.say = function () {
     console.log("My name is " + this.name);
 }
 
+//class方式
 class Person {
     constructor(name) {
         this.name = name;
