@@ -76,9 +76,16 @@ var car = {
         return {
             'Name': this.name,
             'speed': this.speed
-        }
+        };
     }
 }
 
+```
 
+### 反序列化
+```js
+JSON.parse('[1,2,3,true]'); // [1, 2, 3, true]
+JSON.parse('{"name":"小明","age":14}'); // Object {name: '小明', age: 14}
+JSON.parse('true'); // true
+JSON.parse('123.45'); // 123.45
 ```
