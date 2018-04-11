@@ -31,5 +31,7 @@ console.log(worker instanceof Person); //false
 #### 借助中间对象
 
 ```js
+//Worker与Person将共享同一个原型对象//不可取
 Worker.prototype = Person.prototype;
 ```
+
