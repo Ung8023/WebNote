@@ -69,7 +69,6 @@ document.getElementsByClassName("myStyle");
 </div>
 
 <script>
-
 var para = document.getElementById("myPara");
 var parent = para.parentNode;
 parent.style.backgroundColor = "red";
