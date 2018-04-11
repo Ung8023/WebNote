@@ -11,3 +11,16 @@ arr ----> Array.prototype ----> Object.prototype ----> null
 函数调用链
 foo ----> Function.prototype ----> Object.prototype ----> null
 ```
+
+### 构造函数
+定义对象可以通过`{..}`,也可以通过构造函数
+#### 定义构造函数
+```js
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
+    this.say = function() {
+        console.log("My name is: " + this.name + "age is : " + this.age);
+    }
+}
+```
