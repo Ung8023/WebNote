@@ -31,5 +31,5 @@ console.log(worker instanceof Person); //false
 #### 借助中间对象
 
 ```js
-PrimaryStudent.prototype = Student.prototype;
+Worker.prototype = Person.prototype;
 ```
