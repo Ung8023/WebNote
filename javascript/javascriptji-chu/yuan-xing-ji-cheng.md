@@ -28,4 +28,8 @@ var worker = new Worker("张三", 20, 2);
 console.log(worker instanceof Person); //false
 ```
 
-#### 
+#### 借助中间对象
+
+```js
+PrimaryStudent.prototype = Student.prototype;
+```
