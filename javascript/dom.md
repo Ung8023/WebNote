@@ -185,6 +185,21 @@ children在IE6/7/8中包含注释节点，在IE678中，注释节点不要写在
 ##### 修改innerHTML
 innerHTML属性，不但可以修改一个DOM节点的文本内容，还可以直接通过HTML片段修改DOM节点内部的子树
 
+```html
+<div>
+    <p id="myPara">这是一个段落</p>
+</div>
+
+<script>
+
+    var para = document.getElementById("myPara");
+    var parent = para.parentNode;
+
+    parent.innerHTML = 'DDDDDDD';
+</script>
+```
+
+
 #### 节点属性
 注意：IE6、7不支持。调用者：节点,有参数,没有返回值。
 
