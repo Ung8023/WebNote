@@ -56,4 +56,16 @@ console.log(s);
 //第二个参数指定输出哪些参数
 var s = JSON.stringify(car, ['speed', 'name'], ' ');
 console.log(s);
+
+//第二个参数可以传入转换函数
+function convert(key, value) {
+    if (typeof value === 'string') {
+        return value.toUpperCase();
+    }
+    return value;
+}
+var s = JSON.stringify(car, convert, ' ');
+console.log(s);
+
+
 ```
