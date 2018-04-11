@@ -89,3 +89,15 @@ JSON.parse('{"name":"zhangsan","age":14}'); // Object {name: 'zhangsan', age: 14
 JSON.parse('true'); // true
 JSON.parse('123.45'); // 123.45
 ```
+
+#### 指定转换解析出来的属性
+
+```js
+var obj = JSON.parse('{"name":"aodi","speed":240}', function (key, value) {
+    if (key === 'name') {
+        return value + 'Q5';
+    }
+    return value;
+});
+console.log(JSON.stringify(obj));
+```
