@@ -99,6 +99,13 @@ parent.style.backgroundColor = "red";
 ```js
 下一个兄弟节点=节点.previousElementSibling|| 节点.previousSibling
 ```
+
+#### 子节点
+##### 单个子节点
+1. firstChild：调用者是父节点。IE678中指第一个子元素节点（标签）。在火狐谷歌IE9+以后都指的是第一个节点（包括空文档和换行节点）。
+2. firstElementChild:在火狐谷歌IE9都指的第一个元素节点。
+3. lastChild:调用者是父节点。IE678中指最后一个子元素节点（标签）。在火狐谷歌IE9+以后都指的是最后一个节点（包括空文档和换行节点）
+4. astElementChild：在火狐谷歌IE9都指的最后一个元素节点
 ### 对Dom节点的操作
 
 | 操作 | 解释 |
