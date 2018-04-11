@@ -33,6 +33,7 @@ document.getElementById("myDiv");
 ```js
 语法：
 document.getElementsByTagName("标签名");
+
 //找到所有的div
 document.getElementsById("div");
 ``` 
@@ -41,6 +42,7 @@ document.getElementsById("div");
 ```js
 语法：
 document.getElementsByClassName("类名")
+
 //获取使用了class名为myStyle的元素
 document.getElementsByClassName("myStyle");
 ```
