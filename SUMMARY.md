@@ -62,4 +62,5 @@
     * [Date](javascript/javascriptji-chu/date.md)
     * [Json](javascript/javascriptji-chu/json.md)
 * [DOM](javascript/dom.md)
+  * [offset](javascript/dom/offset.md)
 
