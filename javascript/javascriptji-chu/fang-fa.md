@@ -63,10 +63,12 @@ var car = {
     band: 'aodi',
     run: function () {
         function getSpeed() {
-            console.log("速度是: " + this.speed;);
+            console.log("速度是: " + this.speed);
         }
         return getSpeed();
     }
 }
+
+
 
 ```
