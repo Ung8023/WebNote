@@ -12,6 +12,6 @@ function Person(name, age) {
 }
 
 function Worker(name, age, workAge) {
-    
+    Person.call(this, name, age)
 }
 ```
