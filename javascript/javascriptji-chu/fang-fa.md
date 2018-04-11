@@ -62,7 +62,7 @@ var car = {
     speed: 240,
     band: 'aodi',
     run: function () {
-        console.log("速度是：" + this.speed);
+        
     }
 }
 
