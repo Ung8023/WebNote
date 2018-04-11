@@ -72,5 +72,16 @@ var car = {
 car.run(); //错误
 
 //通过捕获this来解决:
+var car = {
+    speed: 240,
+    band: 'aodi',
+    run: function () {
+        var that = this;
+        function getSpeed() {
+            console.log("速度是: " + that.speed);
+        }
+        return getSpeed();
+    }
+}
 
 ```
