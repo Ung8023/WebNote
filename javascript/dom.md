@@ -173,3 +173,5 @@ children在IE6/7/8中包含注释节点，在IE678中，注释节点不要写在
 2. 自己删除
 自己.parentNode.removeChild(自己);
 ```
+
+#### 复制节点
