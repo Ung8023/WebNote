@@ -85,3 +85,20 @@ var car = {
 }
 
 ```
+
+### apply指定this
+
+```js
+function getSpeed() {
+    console.log(this.speed);
+    return this.speed;
+}
+
+var car = {
+    speed: 240,
+    band: 'aodi',
+    run: getSpeed
+}
+
+
+```
