@@ -152,3 +152,4 @@ console.log("div2 offsetTop = " + div2.offsetTop); //0
 2. `offsetTop`返回的是数字，而`style.top`返回的是字符串，除了数字外还带有单位：`px`
 3. `offsetTop` 只读，而 `style.top` 可读写
 4. 如果没有给`HTML`元素指定过`top`样式，则`style.top`返回的是空字符串
+5. **style.left 只能得到行内样式(嵌入式方式写的css)，offsetLeft 随便**
