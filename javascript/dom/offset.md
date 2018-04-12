@@ -57,6 +57,6 @@ afsasfasfasf
  
  ```js
  console.log("通过style获取的height： " + elementById.style.height); // ""
-    console.log("通过style获取div2的height： " + elementById2.style.height); //"200px"
-    console.log("通过offsetHeight获取的height： " + elementById.offsetHeight); //320
+console.log("通过style获取div2的height： " + elementById2.style.height); //"200px"
+console.log("通过offsetHeight获取的height： " + elementById.offsetHeight); //320
  ```
