@@ -62,7 +62,7 @@
     * [Date](javascript/javascriptji-chu/date.md)
     * [Json](javascript/javascriptji-chu/json.md)
 * [BOM](javascript/bom.md)
-  * [一些对象](javascript/bom/screen.md)
+  * [一些对象](javascript/bom/yixieduixiang.md)
 * [DOM](javascript/dom.md)
   * [offset](javascript/dom/offset.md)
   * [事件对象](javascript/dom/shi-jian-dui-xiang.md)
