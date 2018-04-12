@@ -157,4 +157,5 @@ console.log("div2 offsetTop = " + div2.offsetTop); //0
 ### offsetParent
 返回改对象的父级（带有定位）对象
 
-
+1. 如果当前元素的父级元素没有进行**CSS定位**`（position为absolute或relative）`，`offsetParent`为`body`
+2. 如果当前元素的父级元素中有**CSS定位**`（position为absolute或relative）`，`offsetParent`取最近的那个父级元素
