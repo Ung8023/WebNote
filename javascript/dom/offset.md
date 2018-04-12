@@ -13,7 +13,12 @@
  offsetWidth = width + border + padding
  ```
  
- ```html
+ ```css
+ div {
+  width: 220px;
+  border-left: 2px solid red;
+  padding: 10px;
+ }
  
- 
+ div.offsetWidth = 220 + 2 + 20
  ```
