@@ -72,7 +72,12 @@ prompt()//不推荐使用
 ```js
 var timerId = setInterval(code,interval);
 clearInterval(timerId);
-间隔时间执行，不是特别精确
+间隔时间执行，不是特别精确
+```
+
+```js
+
+window.setInterval(“执行的函数”,间隔时间)
 ```
 
 #### 定时执行（立刻执行）
