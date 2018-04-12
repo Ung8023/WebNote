@@ -10,6 +10,7 @@
 3. 全局变量是 window 对象的属性。
 4. 全局函数是 window 对象的方法。
 5. 甚至 HTML DOM 的 document 也是 window 对象的属性之一
+6. 对象下的属性和方法调用的时候可以省略window
 
 ```js
 window.document.getElementById("js-body");
