@@ -92,5 +92,7 @@ setInterval(fun(),1000)
 ```js
 var timerId = setTimeout(code,interval);
 clearTimeout(timerId);
+第一个参数是含有 JavaScript 语句的字符串
+第二个参数指示从当前起多少毫秒后执行第一个参数
 ```
 
