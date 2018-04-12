@@ -22,4 +22,6 @@ location.pathname 属性返回 URL 的路径名。
 location.assign() 方法加载新的文档。
 location.search() 查询字符串
 location.hash  返回url中#后面的内容，包含#
+location.replace() 替换浏览器地址栏的地址，不会记录到历史中
+location.reload()    重新加载
 ```
