@@ -34,4 +34,14 @@ document.documentElement.clientWidth
 或者
 document.body.clientHeight
 document.body.clientWidth
+
+实用的JavaScript方案
+var w=window.innerWidth
+|| document.documentElement.clientWidth
+|| document.body.clientWidth;
+
+var h=window.innerHeight
+|| document.documentElement.clientHeight
+|| document.body.clientHeight;
+
 ```
