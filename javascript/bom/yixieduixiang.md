@@ -42,7 +42,7 @@ navigator.userAgent：浏览器设定的User-Agent字符串。
 ```
 
 ### history
-保存了浏览器的历史记录
+保存了浏览器的历史记录，一般不使用
 
 ```js
 后退
