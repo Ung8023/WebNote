@@ -93,3 +93,4 @@ setInterval(fun(),1000)
 var timerId = setTimeout(code,interval);
 clearTimeout(timerId);
 ```
+
