@@ -77,7 +77,8 @@ clearInterval(timerId);
 
 ```js
 
-window.setInterval(“执行的函数”,间隔时间)
+window.setInterval(“执行的函数”,间隔时间);
+
 ```
 
 #### 定时执行（立刻执行）
