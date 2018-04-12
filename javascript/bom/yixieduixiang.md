@@ -9,3 +9,5 @@ screen.colorDepth：返回颜色位数，如8、16、24。
 screen.availWidth - 可用的屏幕宽度
 screen.availHeight - 可用的屏幕高度
 ```
+
+### Location
