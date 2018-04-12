@@ -8,6 +8,10 @@
 ie678支持 window.event
 
 ```js
+var event = event || window.event;
+```
+
+```js
 document.onclick = function(event){  // 文档中点击
     var event = event || window.event;   // 兼容性写法
     console.log(event.clientY);
