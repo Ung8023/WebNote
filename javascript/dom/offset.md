@@ -9,6 +9,8 @@
  得到对象自己的宽度和高度
  
  #### offsetWidth
+ 使用`object.style.width`只能获取到内嵌式写法的width
+ 
  ```js
  offsetWidth = width + border + padding
  ```
