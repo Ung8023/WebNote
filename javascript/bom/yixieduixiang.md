@@ -20,4 +20,6 @@ location.protocol 返回所使用的 web 协议（http:// 或 https://）
 location.href 属性返回当前页面的 URL。
 location.pathname 属性返回 URL 的路径名。
 location.assign() 方法加载新的文档。
+location.search() 查询字符串
+location.hash  返回url中#后面的内容，包含#
 ```
