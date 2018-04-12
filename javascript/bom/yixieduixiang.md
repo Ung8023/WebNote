@@ -42,3 +42,17 @@ navigator.userAgent：浏览器设定的User-Agent字符串。
 ```
 
 ### history
+保存了浏览器的历史记录
+
+```js
+后退
+history.back()
+history.go(-1)
+
+前进
+history.forward()
+history.go(1)
+
+刷新
+0是刷新
+```
