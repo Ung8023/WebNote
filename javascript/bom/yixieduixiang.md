@@ -29,5 +29,5 @@ location.reload() 重新加载
 ### navigator对象
 
 ```js
-window.navigator 的一些属性可以获取客户端的一些信息userAgent (系统，浏览器)platform       (浏览器支持的系统，win/mac/linux)
+window.navigator 的一些属性可以获取客户端的一些信息userAgent (系统，浏览器)platform (浏览器支持的系统，win/mac/linux)
 ```
