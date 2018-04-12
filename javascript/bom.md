@@ -21,3 +21,8 @@ document.getElementById("js-body");
 ```
 
 #### Window尺寸
+三种方法能够确定浏览器窗口的尺寸（浏览器的视口，不包括工具栏和滚动条）
+
+```js
+
+```
