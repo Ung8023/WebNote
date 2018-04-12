@@ -100,4 +100,5 @@ let div2 = document.getElementById("js-div02");
 console.log("div2 offsetLeft = " + div2.offsetLeft); //18
 console.log("div2 offsetTop = " + div2.offsetTop); //18
 </script>
+</body>
 ```
