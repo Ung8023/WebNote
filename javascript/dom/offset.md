@@ -62,3 +62,4 @@ console.log("通过offsetHeight获取的height： " + elementById.offsetHeight);
  ```
  
 ### offsetLeft与offsetTop
+返回距离上级盒子（最近的带有定位）左边或上边的位置
