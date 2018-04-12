@@ -27,7 +27,13 @@ location.reload() 重新加载
 ```
 
 ### navigator对象
+表示浏览器的信息
 
 ```js
 window.navigator 的一些属性可以获取客户端的一些信息userAgent (系统，浏览器)platform (浏览器支持的系统，win/mac/linux)
+navigator.appName：浏览器名称；
+navigator.appVersion：浏览器版本；
+navigator.language：浏览器设置的语言；
+navigator.platform：操作系统类型；
+navigator.userAgent：浏览器设定的User-Agent字符串。
 ```
