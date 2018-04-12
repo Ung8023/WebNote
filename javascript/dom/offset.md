@@ -23,7 +23,9 @@
  }
  
  div.offsetWidth = 220 + 2 + 20
+ ```
  
+ ```html
  <style type="text/css">
  div {
      width: 200px;
