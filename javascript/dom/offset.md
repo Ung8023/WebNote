@@ -155,4 +155,6 @@ console.log("div2 offsetTop = " + div2.offsetTop); //0
 5. **style.left 只能得到行内样式(嵌入式方式写的css)，offsetLeft 随便**
 
 ### offsetParent
-返回改对象的父级（带有定位）不一定是亲的爸爸
+返回改对象的父级（带有定位）对象
+
+
