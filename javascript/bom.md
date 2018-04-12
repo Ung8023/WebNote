@@ -8,3 +8,11 @@
 4. 全局函数是 window 对象的方法。
 5. 甚至 HTML DOM 的 document 也是 window 对象的属性之一
 
+```js
+window.document.getElementById("js-body");
+
+等价于
+
+document.getElementById("js-body");
+```
+
