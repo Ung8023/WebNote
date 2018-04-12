@@ -24,5 +24,9 @@ document.getElementById("js-body");
 三种方法能够确定浏览器窗口的尺寸（浏览器的视口，不包括工具栏和滚动条）
 
 ```js
+对于Internet Explorer、Chrome、Firefox、Opera 以及 Safari：
+window.innerHeight - 浏览器窗口的内部高度
+window.innerWidth - 浏览器窗口的内部宽度
+
 
 ```
