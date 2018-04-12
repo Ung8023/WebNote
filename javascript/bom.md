@@ -32,5 +32,6 @@ window.innerWidth - 浏览器窗口的内部宽度
 document.documentElement.clientHeight
 document.documentElement.clientWidth
 
-
+document.body.clientHeight
+document.body.clientWidth
 ```
