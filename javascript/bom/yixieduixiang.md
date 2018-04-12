@@ -57,7 +57,7 @@ history.go(1)
 history.go(0)
 ```
 
-### pouAlert
+### popAlert
 
 ```js
 alert()	//不同浏览器中的外观是不一样的
