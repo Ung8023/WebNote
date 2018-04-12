@@ -146,3 +146,5 @@ console.log("div2 offsetTop = " + div2.offsetTop); //0
 </script>
 </body>
 ```
+
+#### offsetTop与style.top区别
