@@ -11,6 +11,7 @@ screen.availHeight - 可用的屏幕高度
 ```
 
 ### Location
+表示当前页面的URL信息
 
 ```js
 location.hostname 返回 web 主机的域名
