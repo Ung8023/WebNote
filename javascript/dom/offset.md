@@ -67,5 +67,19 @@ console.log("通过offsetHeight获取的height： " + elementById.offsetHeight);
 如果父级都没有定位则以body 为准，这里的父级指的是所有上一级 不仅仅指的是 父亲 还可以是 爷爷 曾爷爷 曾曾爷爷。
 
 ```html
+<style type="text/css">
+    #js-div01 {
+        width: 500px;
+        height: 500px;
+        background-color: red;
+        border: 10px solid blue;
+    }
 
+    #js-div02 {
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+        border: 5px solid green;
+    }
+</style>
 ```
