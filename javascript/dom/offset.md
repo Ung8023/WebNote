@@ -21,4 +21,16 @@
  }
  
  div.offsetWidth = 220 + 2 + 20
+ 
+ <style type="text/css">
+ div {
+     width: 200px;
+     height: 300px;
+     border-left: 3px red solid;
+     background-color: pink;
+     padding: 10px;
+ }
+</style>
+
+
  ```
