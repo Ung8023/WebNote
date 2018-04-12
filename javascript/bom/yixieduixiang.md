@@ -25,3 +25,9 @@ location.hash  返回url中#后面的内容，包含#
 location.replace() 替换浏览器地址栏的地址，不会记录到历史中
 location.reload() 重新加载
 ```
+
+### navigator对象
+
+```js
+window.navigator 的一些属性可以获取客户端的一些信息userAgent    (系统，浏览器)platform       (浏览器支持的系统，win/mac/linux)
+```
