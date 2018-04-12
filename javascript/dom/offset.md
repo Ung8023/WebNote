@@ -148,3 +148,7 @@ console.log("div2 offsetTop = " + div2.offsetTop); //0
 ```
 
 #### offsetTop与style.top区别
+1. 最大区别在于`offsetLeft`可以返回没有定位盒子的距离左侧的位置。 而`style.top`不可以, 只有定位的盒子才有`left、top、right`
+2. `offsetTop`返回的是数字，而`style.top`返回的是字符串，除了数字外还带有单位：`px`
+3. `offsetTop` 只读，而 `style.top` 可读写
+4. 如果没有给`HTML`元素指定过`top`样式，则`style.top`返回的是空字符串
