@@ -27,7 +27,10 @@ location.reload() 重新加载
 ```
 
 ### navigator对象
-表示浏览器的信息,`navigator`对象的信息具有误导性，不应该被用于检测浏览器版本
+表示浏览器的信息,`navigator`对象的信息具有误导性，不应该被用于检测浏览器版本: 
+
+navigator 数据可被浏览器使用者更改
+浏览器无法报告晚于浏览器发布的新操作系统
 
 ```js
 window.navigator 的一些属性可以获取客户端的一些信息userAgent (系统，浏览器)platform (浏览器支持的系统，win/mac/linux)
