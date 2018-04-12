@@ -139,8 +139,8 @@ console.log("div1 offsetLeft = " + div1.offsetLeft); // 8
 console.log("div1 offsetTop = " + div1.offsetTop); //8
 
 let div2 = document.getElementById("js-div02");
-console.log("div2 offsetLeft = " + div2.offsetLeft); //18
-console.log("div2 offsetTop = " + div2.offsetTop); //18
+console.log("div2 offsetLeft = " + div2.offsetLeft); //0
+console.log("div2 offsetTop = " + div2.offsetTop); //0
 </script>
 </body>
 ```
