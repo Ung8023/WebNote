@@ -54,5 +54,5 @@ history.go(-1)
 history.go(1)
 
 刷新
-0是刷新
+history.go(0)
 ```
