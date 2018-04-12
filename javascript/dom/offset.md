@@ -64,9 +64,9 @@ console.log("通过offsetHeight获取的height： " + elementById.offsetHeight);
 ### offsetLeft与offsetTop
 返回距离上级盒子（最近的带有定位）左边或上边的位置
 
-如果父级都没有定位则以body 为准，这里的父级指的是所有上一级 不仅仅指的是 父亲 还可以是 爷爷 曾爷爷 曾曾爷爷。
+如果父级都没有定位则以`body`为准，这里的父级指的是所有上一级 不仅仅指的是 父亲 还可以是 爷爷 曾爷爷 曾曾爷爷。
 
-offsetLeft 从父级的padding 开始算，父亲的border 不算
+`offsetLeft`从父级的`padding`开始算，父亲的`border`不算
 #### 不带定位 
 
 ```html
