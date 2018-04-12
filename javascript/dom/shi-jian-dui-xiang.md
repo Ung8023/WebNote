@@ -6,3 +6,4 @@
 普通浏览器支持event
 
 ie678支持 window.event
+
