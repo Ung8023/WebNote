@@ -79,6 +79,12 @@ clearInterval(timerId);
 
 window.setInterval(“执行的函数”,间隔时间);
 
+setInterval(fun, 1000);
+setInterval(“fun()”,1000)
+setInterval( function(){} , 1000 )
+
+错误写法
+setInterval(fun(),1000)
 ```
 
 #### 定时执行（立刻执行）
