@@ -53,11 +53,6 @@ var h=window.innerHeight
     target新窗口的位置 _blank  _self  _parent(父框架)
     param 新窗口的一些设置
     返回值，新窗口的句柄
-    
-    
-    
-    
-    
     ```
 
 2. window.close() 关闭窗口
