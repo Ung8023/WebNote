@@ -114,6 +114,7 @@ console.log("div2 offsetTop = " + div2.offsetTop); //18
         height: 500px;
         background-color: red;
         border: 10px solid blue;
+        position: relative;
     }
 
     #js-div02 {
