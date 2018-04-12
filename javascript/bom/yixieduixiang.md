@@ -66,3 +66,18 @@ prompt()//不推荐使用
 ```
 
 ### 定时器
+
+#### 循环执行（等待时间过去之后执行）
+
+```js
+var timerId = setInterval(code,interval);
+clearInterval(timerId);
+间隔时间执行，不是特别精确
+```
+
+#### 定时执行（立刻执行）
+
+```js
+var timerId = setTimeout(code,interval);
+clearTimeout(timerId);
+```
