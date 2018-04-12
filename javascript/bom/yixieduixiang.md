@@ -56,3 +56,9 @@ history.go(1)
 刷新
 history.go(0)
 ```
+
+### pouAlert
+
+```js
+alert()	//不同浏览器中的外观是不一样的confirm()//兼容不好prompt()	//不推荐使用
+```
