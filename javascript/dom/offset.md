@@ -32,5 +32,19 @@
  }
 </style>
 
+<body>
+    <div id="js-div1">
+afsasfasfasf
+    </div>
+    <div style="width: 200px;" id="js-div2">
 
+    </div>
+<script>
+    let elementById = document.getElementById("js-div1");
+    let elementById2 = document.getElementById("js-div2");
+    console.log("通过style获取的width： " + elementById.style.width); // ""
+    console.log("通过style获取的div2的width： " + elementById2.style.width); //"200px"
+    console.log("通过offsetWidth获取的width： " + elementById.offsetWidth); //223
+</script>
+</body>
  ```
