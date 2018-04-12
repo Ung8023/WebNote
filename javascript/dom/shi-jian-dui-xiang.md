@@ -19,3 +19,5 @@ document.onclick = function(event){  // 文档中点击
     console.log(event.screenY);
 }
 ```
+
+### event常用属性
