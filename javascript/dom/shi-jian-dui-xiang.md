@@ -35,3 +35,4 @@ document.onclick = function(event){  // 文档中点击
 | type     | 事件的类型  |
 | clientX  | 光标相对于该网页的水平位置 （当前可见区域）  |
 | clientY  | 光标相对于该网页的水平位置  |
+
