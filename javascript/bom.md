@@ -31,4 +31,6 @@ window.innerWidth - 浏览器窗口的内部宽度
 对于 Internet Explorer 8、7、6、5：
 document.documentElement.clientHeight
 document.documentElement.clientWidth
+
+
 ```
